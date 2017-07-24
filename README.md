@@ -20,7 +20,9 @@ This is a spreadsheet of all the endpoints we hope to eventually support.
 ## Requirements
 
 .Net Standard 1.6
+
 RestSharp.NetCore
+
 Newtonsoft.Json
 
 Feel free to make pull requests. We're always open to contribution
