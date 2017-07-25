@@ -11,22 +11,20 @@ namespace DestinySharp.Core
         RestClient _client = new RestClient("http://www.bungie.net/Platform/Destiny");
         string apikey { get; set; }
 
-        public string GetAdvisorData(string membershipid, MembershipType type)
+
+        public AdvisorData GetAdvisorData(string membershipid, MembershipType type)
         {
             RestRequest request = new RestRequest($"/{(int)type}/Account/{membershipid}/Advisors/");
             request.AddHeader("X-API-KEY", apikey);
 
             IRestResponse response = _client.Execute(request);
 
-           // var r = JsonConvert.DeserializeObject<DestinyServiceObjectResponse<CharacterSummaryData>>(response.Content);
+            var r = JsonConvert.DeserializeObject<DestinyServiceObjectResponse<AdvisorData>>(response.Content);
 
-            return response.Content;
+            return r.Response.data;
         }
 
-        /// <summary>
-        /// Broken, returns error 19. Needs testing
-        /// </summary>
-        public string GetActivityStats(string membershipid, string characterId, MembershipType type)
+        public string GetActivityStats(string membershipid, string characterId, MembershipType type, DestinyActivityMode activity)
         {
             RestRequest request = new RestRequest($"/Stats/ActivityHistory/{(int)type}/{membershipid}/{characterId}/");
             request.AddHeader("X-API-KEY", apikey);
