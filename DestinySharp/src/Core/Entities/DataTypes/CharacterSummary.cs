@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DestinySharp.Core
 {
+    /// <summary>
+    /// CharacterSummary request adata. Contains an array of characters and multiple inventory items.
+    /// </summary>
     public class CharacterSummaryData
     {
         public string membershipId { get; set; }
@@ -14,6 +18,9 @@ namespace DestinySharp.Core
         public int versions { get; set; }
     }
 
+    /// <summary>
+    /// Destiny Character Customization
+    /// </summary>
     public class Customization
     {
         public ulong personality { get; set; }
@@ -30,23 +37,35 @@ namespace DestinySharp.Core
         public int decalIndex { get; set; }
     }
 
+    /// <summary>
+    /// Needs documentation
+    /// </summary>
     public class Dye
     {
         public ulong channelHash { get; set; }
         public ulong dyeHash { get; set; }
     }
 
-    public class Equipment
+    /// <summary>
+    /// Hashed equipment inside of "PeerView"
+    /// </summary>
+    public class HashedEquipment
     {
         public ulong itemHash { get; set; }
         public IList<Dye> dyes { get; set; }
     }
 
+    /// <summary>
+    /// Stores an array of character equipment. All hashed, must query Manifest with "InventoryItem" as type.
+    /// </summary>
     public class PeerView
     {
-        public IList<Equipment> equipment { get; set; }
+        public IList<HashedEquipment> equipment { get; set; }
     }
 
+    /// <summary>
+    /// The main character base.
+    /// </summary>
     public class CharacterBase
     {
         public string membershipId { get; set; }
@@ -64,12 +83,16 @@ namespace DestinySharp.Core
         public Stats stats { get; set; }
         public Customization customization { get; set; }
         public int grimoireScore { get; set; }
-        public PeerView peerView { get; set; }
+        [JsonProperty("peerView")]
+        public PeerView characterEquipment { get; set; }
         public int genderType { get; set; }
         public int classType { get; set; }
         public ulong buildStatGroupHash { get; set; }
     }
 
+    /// <summary>
+    /// XP level progression. Needs proper testing
+    /// </summary>
     public class LevelProgression
     {
         public int dailyProgress { get; set; }
@@ -82,6 +105,9 @@ namespace DestinySharp.Core
         public int progressionHash { get; set; }
     }
 
+    /// <summary>
+    /// Character object, similiar to the character base but with less information.
+    /// </summary>
     public class Character
     {
         public CharacterBase characterBase { get; set; }
@@ -95,16 +121,22 @@ namespace DestinySharp.Core
         public double percentToNextLevel { get; set; }
     }
 
-    public class Currency
+    /// <summary>
+    /// Hashed currency inside your character
+    /// </summary>
+    public class HashedCurrency
     {
         public ulong itemHash { get; set; }
         public int value { get; set; }
     }
 
+    /// <summary>
+    /// Player inventory. Testing up to now always has "items" empty.
+    /// </summary>
     public class Inventory
     {
         public IList<object> items { get; set; }
-        public IList<Currency> currencies { get; set; }
+        public IList<HashedCurrency> currencies { get; set; }
     }
 
 

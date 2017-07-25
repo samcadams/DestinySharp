@@ -4,6 +4,9 @@ using System.Text;
 
 namespace DestinySharp.Core
 {
+    /// <summary>
+    /// Destiny class enumeration. 
+    /// </summary>
     public enum DestinyClass
     {
         Titan,

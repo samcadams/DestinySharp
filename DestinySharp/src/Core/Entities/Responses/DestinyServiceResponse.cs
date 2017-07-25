@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DestinySharp.Core
 {
-
+    /// <summary>
+    /// Default response from bungie servers
+    /// </summary>
     public class DestinyServiceResponse
     {
         public string Response { get; set; }

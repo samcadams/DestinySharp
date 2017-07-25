@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DestinySharp.Core
 {
+    /// <summary>
+    /// Destiny Definition Enum. Used for manifest query
+    /// </summary>
     public enum DestinyDefinitionType
     {
         Activity,

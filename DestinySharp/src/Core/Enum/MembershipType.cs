@@ -15,7 +15,7 @@ namespace DestinySharp.Core
         Xbox = 1,
         /// <summary> Used for psn gamers </summary>
         PSN = 2,
-        /// <summary> WARNING: NO IDEA IF THIS WORKS </summary>
+        /// <summary> WARNING: WILL NOT WORK FOR DESTINY PLATFORM </summary>
         Blizzard = 4,
     }
 }

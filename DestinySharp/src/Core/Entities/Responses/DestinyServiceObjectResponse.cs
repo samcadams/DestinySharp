@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace DestinySharp.Core
 {
+    /// <summary>
+    /// Object response contains special generic typing to properly create the "Response.data" object
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class DestinyServiceObjectResponse<T>
     {
         public Response<T> Response { get; set; }
