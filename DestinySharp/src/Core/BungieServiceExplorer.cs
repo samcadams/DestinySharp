@@ -1,10 +1,5 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DestinySharp.Core
 {
@@ -15,6 +10,35 @@ namespace DestinySharp.Core
     {
         RestClient _client = new RestClient("http://www.bungie.net/Platform/Destiny");
         string apikey { get; set; }
+
+        public string GetAdvisorData(string membershipid, MembershipType type)
+        {
+            RestRequest request = new RestRequest($"/{(int)type}/Account/{membershipid}/Advisors/");
+            request.AddHeader("X-API-KEY", apikey);
+
+            IRestResponse response = _client.Execute(request);
+
+           // var r = JsonConvert.DeserializeObject<DestinyServiceObjectResponse<CharacterSummaryData>>(response.Content);
+
+            return response.Content;
+        }
+
+        /// <summary>
+        /// Broken, returns error 19. Needs testing
+        /// </summary>
+        public string GetActivityStats(string membershipid, string characterId, MembershipType type)
+        {
+            RestRequest request = new RestRequest($"/Stats/ActivityHistory/{(int)type}/{membershipid}/{characterId}/");
+            request.AddHeader("X-API-KEY", apikey);
+
+
+            IRestResponse response = _client.Execute(request);
+
+
+            //var r = JsonConvert.DeserializeObject<DestinyServiceObjectResponse<CharacterSummaryData>>(response.Content);
+
+            return response.Content;
+        }
 
         /// <summary>
         /// Get hashed character summary by name.
