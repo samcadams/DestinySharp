@@ -2,6 +2,7 @@
 {
     public enum DestinyActivityMode
     {
+        None = 0,
         Story = 2,
         Strike = 3,
         Raid = 4,
