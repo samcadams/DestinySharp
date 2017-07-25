@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DestinySharp.Core
+﻿namespace DestinySharp.Core
 {
     public enum DestinyActivityMode
     {
