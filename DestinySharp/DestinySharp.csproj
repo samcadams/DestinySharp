@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <Version>0.1</Version>
+    <Version>0.2</Version>
     <Authors>Fires</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>HEAVILY WIP - An unofficial C# wrapper for the Bungie/Destiny API.</Description>
