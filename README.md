@@ -9,7 +9,7 @@ You can find our MyGet feed [here](https://www.myget.org/feed/destinysharp/packa
 
 To request access: [Make an issue](https://github.com/Fires1/DestinySharp/issues/new)
 
-# PRIVATE [Plans and future](https://trello.com/b/VgTioS5j/destinysharp)
+# [Plans and future](https://github.com/Fires1/DestinySharp/projects/1)
 
 We plan on supporting D2 and all future api end points.
 
