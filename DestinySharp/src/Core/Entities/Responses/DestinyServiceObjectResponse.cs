@@ -150,7 +150,7 @@ namespace DestinySharp.Core
     }
     public class DefinitionItems
     {
-        public int itemHash { get; set; }
+        public ulong itemHash { get; set; }
         public string itemName { get; set; }
         public string icon { get; set; }
         public bool hasIcon { get; set; }
@@ -162,18 +162,18 @@ namespace DestinySharp.Core
         public string tierTypeName { get; set; }
         public int tierType { get; set; }
         public ulong bucketTypeHash { get; set; }
-        public int primaryBaseStatHash { get; set; }
+        public ulong primaryBaseStatHash { get; set; }
         public object stats { get; set; }
         public object[] perkHashes { get; set; }
         public int specialItemType { get; set; }
-        public int talentGridHash { get; set; }
+        public ulong talentGridHash { get; set; }
         public bool hasGeometry { get; set; }
-        public int statGroupHash { get; set; }
+        public ulong statGroupHash { get; set; }
         public object[] itemLevels { get; set; }
         public int qualityLevel { get; set; }
         public bool equippable { get; set; }
         public bool instanced { get; set; }
-        public int rewardItemHash { get; set; }
+        public ulong rewardItemHash { get; set; }
         public object values { get; set; }
         public int itemType { get; set; }
         public int itemSubType { get; set; }
@@ -190,9 +190,9 @@ namespace DestinySharp.Core
         public bool needsFullCompletion { get; set; }
         public object[] objectiveHashes { get; set; }
         public bool allowActions { get; set; }
-        public int questTrackingUnlockValueHash { get; set; }
-        public int bountyResetUnlockHash { get; set; }
-        public int uniquenessHash { get; set; }
+        public ulong questTrackingUnlockValueHash { get; set; }
+        public ulong bountyResetUnlockHash { get; set; }
+        public ulong uniquenessHash { get; set; }
         public bool showActiveNodesInTooltip { get; set; }
         public ulong hash { get; set; }
         public int index { get; set; }
@@ -259,7 +259,7 @@ namespace DestinySharp.Core
         public int maximumValue { get; set; }
         public int uiPosition { get; set; }
         public List<DefinitionStatGroupsScaledStats> scaledStats { get; set; }
-        public object[] overrides { get; set; }
+        public dynamic overrides { get; set; }
         public ulong hash { get; set; }
         public int index { get; set; }
         public bool redacted { get; set; }
