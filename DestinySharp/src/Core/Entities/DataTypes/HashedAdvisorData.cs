@@ -1,7 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using DestinySharp.Core.DataTypes;
 
 namespace DestinySharp.Core
 {
@@ -14,10 +13,12 @@ namespace DestinySharp.Core
         public DateTime nextDailyReset { get; set; }
         public DateTime previousWeeklyReset { get; set; }
         public DateTime previousDailyReset { get; set; }
-        public Dictionary<ulong, HashedRecordBook> recordBooks{ get; set; }
+        public Dictionary<ulong, HashedRecordBook> recordBooks { get; set; }
     }
+}
 
-
+namespace DestinySharp.Core.DataTypes
+{
     public class HashedRecordBook
     {
         public ulong bookHash { get; set; }

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using DestinySharp.Core.DataTypes;
 
 namespace DestinySharp.Core
 {
@@ -17,6 +18,9 @@ namespace DestinySharp.Core
         public int grimoireScore { get; set; }
         public int versions { get; set; }
     }
+}
+namespace DestinySharp.Core.DataTypes
+{ 
 
     /// <summary>
     /// Destiny Character Customization
@@ -141,3 +145,4 @@ namespace DestinySharp.Core
 
 
 }
+

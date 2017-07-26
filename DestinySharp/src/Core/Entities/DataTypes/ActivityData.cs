@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DestinySharp.Core.DataTypes;
 
 namespace DestinySharp.Core
 {
@@ -8,6 +9,10 @@ namespace DestinySharp.Core
     {
         public List<HashedActivity> activities { get; set; }
     }
+}
+
+namespace DestinySharp.Core.DataTypes
+{ 
 
     public class HashedActivity
     {
@@ -36,3 +41,4 @@ namespace DestinySharp.Core
         public object displayValue { get; set; }
     }
 }
+
