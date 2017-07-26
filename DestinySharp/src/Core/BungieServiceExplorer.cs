@@ -25,7 +25,7 @@ namespace DestinySharp.Core
         }
 
         /// <summary>
-        /// Gets activity history stats for givne character
+        /// Gets activity history stats for given character
         /// </summary>
         /// <param name="membershipid">Valid membership id of the user</param>
         /// <param name="characterId">alid character id of the user</param>
