@@ -47,11 +47,11 @@ namespace DestinySharp.Core
         public Dictionary<string, object> progressionMappings { get; set; }
         public Dictionary<string, DefinitionItemCategories> itemCategories { get; set; }
         public Dictionary<string, DefinitionSources> sources { get; set; }
-        public Dictionary<string, object> objectives { get; set; }
-        public Dictionary<string, object> progressions { get; set; }
-        public Dictionary<string, object> damageTypes { get; set; }
+        public Dictionary<string, DefinitionObjectives> objectives { get; set; }
+        public Dictionary<string, DefinitionProgressions> progressions { get; set; }
+        public Dictionary<string, DefinitionDamageTypes> damageTypes { get; set; }
         public Dictionary<string, object> materialRequirements { get; set; }
-        public Dictionary<string, object> unlockValues { get; set; }
+        public Dictionary<string, DefinitionUnlockValues> unlockValues { get; set; }
         public Dictionary<string, object> vendorDetails { get; set; }
         public Dictionary<string, object> locations { get; set; }
         public Dictionary<string, object> factions { get; set; }
@@ -59,10 +59,15 @@ namespace DestinySharp.Core
         public Dictionary<string, object> vendorCategories { get; set; }
         public Dictionary<string, object> vendorSummaries { get; set; }
         public Dictionary<string, object> books { get; set; }
+        public Dictionary<string, DefinitionRecordBooks> recordBooks { get; set; }
         public Dictionary<string, object> activityBundles { get; set; }
+        public Dictionary<string, DefinitionRecords> records { get; set; }
     }
 #region Definitions
-    #region Activity
+    
+    //These need to be moved to their own files and renamed if other end points depend on them(which they probably do)
+
+#region Activity
     public class DefinitionActivity
     {
         public ulong activityHash { get; set; }
@@ -82,7 +87,7 @@ namespace DestinySharp.Core
         public ulong activityTypeHash { get; set; }
         public int tier { get; set; }
         public string pgcrImage { get; set; }
-        public Reward[] rewards { get; set; }
+        public DefinitionActivityReward[] rewards { get; set; }
         public List<object> skulls { get; set; }
         public bool isPlaylist { get; set; }
         public bool isMatchmade { get; set; }
@@ -90,22 +95,16 @@ namespace DestinySharp.Core
         public int index { get; set; }
         public bool redacted { get; set; }
     }
-    public class Reward
+    public class DefinitionActivityReward
     {
-        public Rewarditem[] rewardItems { get; set; }
+        public DefinitionActivityRewardItem[] rewardItems { get; set; }
     }
-
-    public class Rewarditem
+    public class DefinitionActivityRewardItem
     {
         public int itemHash { get; set; }
         public int value { get; set; }
     }
-    public class DefinitionActivityRewardItem
-    {
-        public ulong itemHash { get; set; }
-        public int value { get; set; }
-    }
-    #endregion
+ #endregion
     public class DefinitionDestinations
     {
         public ulong destinationHash { get; set; }
@@ -230,7 +229,7 @@ namespace DestinySharp.Core
         public string statDescription { get; set; }
         public string icon { get; set; }
         public string statIdentifier { get; set; }
-        public int aggregationType { get; set; }
+        public AggregationType aggregationType { get; set; }
         public bool hasComputedBlock { get; set; }
         public bool interpolate { get; set; }
         public ulong hash { get; set; }
@@ -323,5 +322,141 @@ namespace DestinySharp.Core
         public string contentIdentifier { get; set; }
         public bool redacted { get; set; }
     }
+#region Progressions
+    public class DefinitionProgressions
+    {
+        public ulong progressionHash { get; set; }
+        public string name { get; set; }
+        public int scope { get; set; }
+        public bool repeatLastStep { get; set; }
+        public List<DefinitionProgressionsSteps> steps { get; set; }
+        public bool visible { get; set; }
+        public int index { get; set; }
+        public bool redacted { get; set; }
+    }
+    public class DefinitionProgressionsSteps
+    {
+        public int progressTotal { get; set; }
+        public DefinitionActivityRewardItem[] rewardItems { get; set; }
+    }
+    #endregion
+    public class DefinitionDamageTypes
+    {
+        public ulong damageTypeHash { get; set; }
+        public string identifier { get; set; }
+        public string damageTypeName { get; set; }
+        public string description { get; set; }
+        public string iconPath { get; set; }
+        public string transparentIconPath{ get; set; }
+        public bool showIcon { get; set; }
+        public DamageType enumValue { get; set; }
+        public ulong hash { get; set; }
+        public int index { get; set; }
+        public bool redacted { get; set; }
+    }
+    public class DefinitionUnlockValues {
+        public ulong unlockValueHash { get; set; }
+        public AggregationType aggregationType { get; set; }
+        public int scope { get; set; }
+        public int mappingIndex { get; set; }
+        public ulong hash { get; set; }
+        public int index{get;set;}
+        public bool redacted { get; set; }
+    }
+#region RecordBooks
+    public class DefinitionRecordBooks
+    {
+        public DefinitionRecordBooksUnlockExpression bookAvailableUnlockExpression { get; set; }
+        public List<DefinitionRecordBooksActiveRanges> activeRanges { get; set; }
+        public List<DefinitionRecordBooksPages> pages { get; set; }
+        public string displayName { get; set; }
+        public string displayDescription { get; set; }
+        public string icon { get; set; }
+        public string unavailableReason { get; set; }
+        public ulong progressionHash { get; set; }
+        public int recordCount { get; set; }
+        public string bannerImage { get; set; }
+        public ulong itemHash { get; set; }
+        public ulong hash { get; set; }
+        public int index { get; set; }
+        public string contentIdentifier { get; set; }
+        public bool redacted { get; set; }
+    }
+    public class DefinitionRecordBooksPages
+    {
+        public string displayName { get; set; }
+        public string displayDescription { get; set; }
+        public int displayStyle { get; set; }
+        public List<DefinitionRecordBooksRecords> records { get; set; }
+        public List<DefinitionRecordBooksRewards> rewards { get; set; }
+    }
+    public class DefinitionRecordBooksRecords
+    {
+        public ulong recordHash { get; set; }
+        public bool spotlight { get; set; }
+        public bool scrambled { get; set; }
+    }
+    public class DefinitionRecordBooksRewards
+    {
+        public bool visible { get; set; }
+        public ulong itemHash { get; set; }
+        public List<object> requirementUnlockExpressions { get; set; }
+        public int requirementProgressionLevel { get; set; }
+        public ulong claimedUnlockHash { get; set; }
+        public bool canReclaim { get; set; }
+        public int quantity { get; set; }
+    }
+    public class DefinitionRecordBooksUnlockExpression
+    {
+        public List<DefinitionRecordsActualRewardsItemUnlockExpressionSteps> steps { get; set; }
+    }
+    public class DefinitionRecordBooksActiveRanges
+    {
+        public DateTime start { get; set; }
+        public DateTime end { get; set; }
+    }
+#endregion
+#region Records
+    public class DefinitionRecords
+    {
+        public string displayName { get; set; }
+        public string description { get; set; }
+        public string recordValueUIStyle{get;set;}
+        public string icon { get; set; }
+        public int style { get; set; }
+        public List<DefinitionRecordsRewards> rewards { get; set; }
+        public List<DefinitionRecordsActualRewards> actualRewards { get; set; }
+        public List<DefinitionRecordsObjectives> objectives { get; set; }
+        public ulong hash { get; set; }
+        public int index { get; set; }
+        public string contentIdentifier { get; set; }
+        public bool redacted { get; set; }
+    }
+    public class DefinitionRecordsRewards {
+        public ulong uiItemHash { get; set; }
+        public int uiItemQuantity { get; set; }
+        public int levelRewarded { get; set; }
+    }
+    public class DefinitionRecordsActualRewards
+    {
+        public ulong rewardSiteHash { get; set; }
+        public DefinitionRecordsActualRewardsItemUnlockExpression itemUnlockExpression { get; set; }
+    }
+    public class DefinitionRecordsActualRewardsItemUnlockExpression
+    {
+        public List<DefinitionRecordsActualRewardsItemUnlockExpressionSteps> steps { get; set; }
+    }
+    public class DefinitionRecordsActualRewardsItemUnlockExpressionSteps
+    {
+        public int stepOperator { get; set; }
+        public ulong flagHash { get; set; }
+        public ulong valueHash { get; set; }
+        public int value { get; set; }
+    }
+    public class DefinitionRecordsObjectives
+    {
+        public ulong objectiveHash { get; set; }
+    }
+#endregion
 #endregion
 }
