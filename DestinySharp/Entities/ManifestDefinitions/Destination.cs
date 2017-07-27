@@ -1,6 +1,6 @@
 ﻿namespace DestinySharp.Core.Entities
 {
-    public class Destination
+    public class Destination : ManifestDefinition
     {
         public ulong DestinationHash { get; set; }
         public string DestinationName { get; set; }
