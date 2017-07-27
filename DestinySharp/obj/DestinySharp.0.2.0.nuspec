@@ -11,14 +11,13 @@
     <description>HEAVILY WIP - An unofficial C# wrapper for the Bungie/Destiny API.</description>
     <tags>destiny-api</tags>
     <dependencies>
-      <group targetFramework=".NETStandard1.6">
-        <dependency id="RestSharp.NetCore" version="105.2.4-rc4-24214-01" exclude="Build,Analyzers" />
-        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="RestSharp" version="105.2.3" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="10.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Sam\Documents\Visual Studio 2017\Projects\Dsharp\DestinySharp\DestinySharp\bin\Debug\netstandard1.6\DestinySharp.dll" target="lib\netstandard1.6\DestinySharp.dll" />
+    <file src="C:\Users\Sam\Documents\Visual Studio 2017\Projects\Dsharp\DestinySharp\DestinySharp\bin\Debug\net452\DestinySharp.dll" target="lib\net452\DestinySharp.dll" />
   </files>
 </package>
