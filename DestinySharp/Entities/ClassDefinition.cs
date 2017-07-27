@@ -1,4 +1,4 @@
-﻿namespace DestinySharp.Core
+﻿namespace DestinySharp.Core.DataTypes
 {
     public class ClassDefinitionData
     {

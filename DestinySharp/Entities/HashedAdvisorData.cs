@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DestinySharp.Core.DataTypes;
 
-namespace DestinySharp.Core
+namespace DestinySharp.Core.DataTypes
 {
     /// <summary>
     /// Quote from Official Bungie Documentation: "Returns the set of Advisor data for the given account. This endpoint only returns advisors that are relevant on an account level, and will likely grow over time."
@@ -15,10 +15,6 @@ namespace DestinySharp.Core
         public DateTime previousDailyReset { get; set; }
         public Dictionary<ulong, HashedRecordBook> recordBooks { get; set; }
     }
-}
-
-namespace DestinySharp.Core.DataTypes
-{
     public class HashedRecordBook
     {
         public ulong bookHash { get; set; }

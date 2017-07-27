@@ -1,6 +1,6 @@
 ﻿using DestinySharp.Core.DataTypes;
 
-namespace DestinySharp.Core
+namespace DestinySharp.Core.DataTypes
 {
     public class Stats
     {
@@ -14,10 +14,6 @@ namespace DestinySharp.Core
         public HashedStat STAT_RECOVERY { get; set; }
         public HashedStat STAT_OPTICS { get; set; }
     }
-}
-
-namespace DestinySharp.Core.DataTypes
-{ 
     public class HashedStat
     {
         public ulong statHash { get; set; }

@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using DestinySharp.Core.DataTypes;
 
-namespace DestinySharp.Core
+namespace DestinySharp.Core.DataTypes
 {
     public class ActivityData
     {
         public List<HashedActivity> activities { get; set; }
     }
-}
-
-namespace DestinySharp.Core.DataTypes
-{ 
 
     public class HashedActivity
     {

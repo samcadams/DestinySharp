@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
+using DestinySharp.Core.DataTypes;
 
 namespace DestinySharp.Core
 {
@@ -11,6 +12,7 @@ namespace DestinySharp.Core
         RestClient _client = new RestClient("http://www.bungie.net/Platform/Destiny");
         string Apikey { get; set; }
 
+        
 
         public AdvisorData GetAdvisorData(string membershipid, MembershipType type, bool definitions = false)
         {
@@ -43,6 +45,7 @@ namespace DestinySharp.Core
             request.AddParameter("count", count);
             request.AddParameter("page", page);
             request.AddParameter("definitions", definitions);
+
 
             IRestResponse response = _client.Execute(request);
             var r = JsonConvert.DeserializeObject<DestinyServiceObjectResponse<ActivityData>>(response.Content);
