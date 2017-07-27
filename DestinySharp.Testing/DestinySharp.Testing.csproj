@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DestinySharp\DestinySharp.csproj" />
+    <ProjectReference Include="..\DestinySharp\DestinySharp.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

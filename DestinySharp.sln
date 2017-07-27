@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinySharp", "DestinySharp\DestinySharp.csproj", "{4726D885-DF53-454E-8C3F-8AFBC0A4BF3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinySharp.Core", "DestinySharp\DestinySharp.Core.csproj", "{4726D885-DF53-454E-8C3F-8AFBC0A4BF3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestinySharp.Testing", "DestinySharp.Testing\DestinySharp.Testing.csproj", "{861CEB8B-5091-44F2-BB25-503DED7B651F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinySharp.Testing", "DestinySharp.Testing\DestinySharp.Testing.csproj", "{861CEB8B-5091-44F2-BB25-503DED7B651F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
