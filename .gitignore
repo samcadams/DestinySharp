@@ -38,3 +38,5 @@ DestinySharp/obj/Debug/net452/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E7
 DestinySharp.Testing/obj/Debug/net452/DestinySharp.Testing.Program.cs
 DestinySharp/obj/Debug/net452/DestinySharp.Core.AssemblyInfo.cs
 DestinySharp.Testing/obj/Release/net452/DestinySharp.Testing.Program.cs
+DestinySharp/obj/Release/net452/DestinySharp.Core.AssemblyInfo.cs
+DestinySharp.Testing/obj/Release/net452/DestinySharp.Testing.AssemblyInfo.cs
