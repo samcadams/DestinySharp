@@ -3,7 +3,20 @@ DestinySharp's goal is to introduce a completely object oriented approach for th
 
 For light weight applications, this may not be the project you're looking for.
 
-# PRIVATE MyGet Feed 
+# DESTINY 2 PLAN
+
+Okay! We've finally heard about the D2 api.
+
+D2 documentation will be live August 23. Giving us at this current time 3 weeks to finish up before we have a ton more ship to do.
+
+Heres what I propose:
+
+Finish Models
+Attempt to Finish Endpoints
+Stop all work on D1 api and prepare methods for D2 endpoints
+Test D2 endpoints like hell
+
+# MyGet Feed 
 
 You can find our MyGet feed [here](https://www.myget.org/feed/destinysharp/package/nuget/DestinySharp)
 
