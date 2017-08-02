@@ -1,4 +1,4 @@
-﻿namespace DestinySharp.Core
+﻿namespace DestinySharp.Core.Entities
 {
     public enum DestinyActivityMode
     {
@@ -37,6 +37,6 @@
         SupremacyRumble = 33,
         SupremacyClash = 34,
         SupremacyInferno = 35,
-        SupremacyMayhem =36
+        SupremacyMayhem = 36
     }
 }

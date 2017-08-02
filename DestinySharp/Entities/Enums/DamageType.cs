@@ -1,4 +1,4 @@
-﻿namespace DestinySharp.Core
+﻿namespace DestinySharp.Core.Entities
 {
     public enum DamageType
     {

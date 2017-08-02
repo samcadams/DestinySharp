@@ -24,12 +24,12 @@ namespace DestinySharp.Core.Entities
 
     public class TriumphSetTriump
     {
-        public string identifier { get; set; }
-        public string title { get; set; }
-        public string subtitle { get; set; }
-        public string iconPath { get; set; }
+        public string Identifier { get; set; }
+        public string Title { get; set; }
+        public string Subtitle { get; set; }
+        public string IconPath { get; set; }
         public bool hasProgress { get; set; }
-        public int minimumProgress { get; set; }
-        public int maximumProgress { get; set; }
+        public int MinimumProgress { get; set; }
+        public int MaximumProgress { get; set; }
     }
 }

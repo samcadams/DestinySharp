@@ -1,9 +1,10 @@
 ﻿namespace DestinySharp.Core.Entities
 {
-    public enum RaceType
+    public enum DestinyRace
     {
         Human,
         Awoken,
-        Exo
+        Exo,
+        Unknown
     }
 }
