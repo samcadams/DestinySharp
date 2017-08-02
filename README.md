@@ -19,6 +19,8 @@ This is a spreadsheet of all the endpoints we hope to eventually support.
 
 # Contributing
 
+We'd highly recommend you join our discord server https://discord.gg/G8v2Q8F
+
 ## Requirements
 
 .Net Standard 1.6
