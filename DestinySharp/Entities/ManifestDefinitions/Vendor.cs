@@ -7,7 +7,7 @@ namespace DestinySharp.Core.Entities
     {
         public VendorSummary Summary { get; set; }
         public List<VendorAcceptedItem> AcceptedItems { get; set; }
-        public VendorCategories Categories { get; set; }
+        public VendorSaleCategories Categories { get; set; }
         public List<String> FailureStrings { get; set; }
         public List<VendorSales> Sales { get; set; }
         public ulong UnlockValueHash { get; set; }
@@ -46,7 +46,7 @@ namespace DestinySharp.Core.Entities
         public bool InhibitBuying { get; set; }
     }
 
-    public class VendorCategories {
+    public class VendorSaleCategories {
         public ulong CategoryHash { get; set; }
         public int CategoryIndex { get; set; }
         public string DisplayTitle { get; set; }
