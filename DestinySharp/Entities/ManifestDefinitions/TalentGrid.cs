@@ -45,7 +45,7 @@ namespace DestinySharp.Core.Entities
         public string NodeStepDescription { get; set; }
         public string InteractionDescription { get; set; }
         public string Icon { get; set; }
-        public DamageType DamageType { get; set; }
+        public DestinyDamageType DamageType { get; set; }
         public ulong DamageTypeHash { get; set; }
         public TalentGridStepActivationRequirement ActivationRequirement { get; set; }
         public bool CanActiveNextStep { get; set; }
