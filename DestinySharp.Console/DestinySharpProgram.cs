@@ -9,7 +9,7 @@ namespace DestinySharp.Console
 {
     class DestinySharpProgram
     {
-        private static readonly string Fullmetalfireflyapikey = "5e7d9ff231914e179c83dc778d4cdeaa";
+        private static readonly string Fullmetalfireflyapikey = "";
         private static DestinyServiceExplorer _service;
 
         private static string MembershipId { get; set; }
