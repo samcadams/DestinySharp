@@ -18,6 +18,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Sam\Documents\Visual Studio 2017\Projects\Dsharp\DestinySharp\DestinySharp\bin\Debug\net452\DestinySharp.Core.dll" target="lib\net452\DestinySharp.Core.dll" />
+    <file src="C:\Users\vanessaulloa\Source\Repos\DestinySharp\DestinySharp\bin\Debug\net452\DestinySharp.Core.dll" target="lib\net452\DestinySharp.Core.dll" />
   </files>
 </package>

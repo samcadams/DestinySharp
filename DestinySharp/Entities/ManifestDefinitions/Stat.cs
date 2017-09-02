@@ -7,7 +7,8 @@
         public string StatDescription { get; set; }
         public string Icon { get; set; }
         public string StatIdentifier { get; set; }
-        public AggregationType AggregationType { get; set; }
+        // TODO: what is AggregationType? 
+        //public AggregationType AggregationType { get; set; }
         public bool HasComputedBlock { get; set; }
         public bool Interpolate { get; set; }
     }

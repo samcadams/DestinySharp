@@ -1,4 +1,6 @@
-﻿namespace DestinySharp.Core.DataTypes
+﻿using DestinySharp.Core.Entities;
+
+namespace DestinySharp.Core.DataTypes
 {
     public class ClassDefinitionData
     {

@@ -7,7 +7,7 @@ namespace DestinySharp.Core.Entities
     {
         public RecordBookAvailableUnlockExpression BookAvailableUnlockExpression { get; set; }
         public List<RecordBookActiveRange> ActiveRanges { get; set; }
-        public Page3[] pages { get; set; }
+        public RecordBookPage[] Pages { get; set; }
         public string DisplayName { get; set; }
         public string DisplayDescription { get; set; }
         public string Icon { get; set; }
@@ -44,7 +44,7 @@ namespace DestinySharp.Core.Entities
         public string DisplayDescription { get; set; }
         public int DisplayStyle { get; set; }
         public List<RecordBookRecord> Records { get; set; }
-        public object[] Rewards { get; set; }
+        public RecordBookReward[] Rewards { get; set; }
     }
 
     public class RecordBookRecord
