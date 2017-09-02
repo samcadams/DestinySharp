@@ -1,9 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using DestinySharp.Core.DataTypes;
+using Newtonsoft.Json;
 using RestSharp;
-using DestinySharp.Core.DataTypes;
-using System.Net;
-using System.Linq;
 using System;
+using System.Net;
+using DestinySharp.Core.Entities;
 
 namespace DestinySharp.Core
 {
@@ -12,40 +12,41 @@ namespace DestinySharp.Core
     /// </summary>
     public class DestinyServiceExplorer
     {
-        RestClient _client = new RestClient("http://www.bungie.net/Platform/Destiny");
-        string Apikey { get; set; }
+        private readonly RestClient _client = new RestClient("http://www.bungie.net/Platform/Destiny");
+        private string Apikey { get; set; }
 
         public string GetManifestDefinitions(DestinyManifestItem item)
         {
             string json = null;
-            using (WebClient webClient = new WebClient())
+            using (var webClient = new WebClient())
             {
                 json = webClient.DownloadString("https://destiny.plumbing/");
             }
+
             if (json == null)
                 throw new System.Exception("https://destiny.plumbing/ returned null. Is it down?");
 
-            DestinyPlumbingRaw response = JsonConvert.DeserializeObject<DestinyPlumbingRaw>(json);
+            var response = JsonConvert.DeserializeObject<DestinyPlumbingRaw>(json);
 
             var no = Enum.GetName(typeof(DestinyManifestItem), item);
 
-            if (response.en.collections.ContainsKey(no))
+            if (no != null && response.en.collections.ContainsKey(no))
             {
                 var itemval = response.en.collections[no];
-                    using (WebClient webClient = new WebClient())
-                    {
-                        json = webClient.DownloadString(itemval);
-                    }
-                    //Convert to object
-                    return json;
-                
+                using (var webClient = new WebClient())
+                {
+                    json = webClient.DownloadString(itemval);
+                }
+                //Convert to object
+                return json;
             }
-            if (response.en.items.ContainsKey(no))
+
+            if (no != null && response.en.items.ContainsKey(no))
             {
                 var itemval = response.en.items[no];
                 if (itemval != null)
                 {
-                    using (WebClient webClient = new WebClient())
+                    using (var webClient = new WebClient())
                     {
                         json = webClient.DownloadString(itemval);
                     }
@@ -53,7 +54,8 @@ namespace DestinySharp.Core
                     return json;
                 }
             }
-            if (response.en.raw.ContainsKey(no))
+
+            if (no != null && response.en.raw.ContainsKey(no))
             {
                 var itemval = response.en.raw[no];
                 if (itemval != null)
@@ -67,14 +69,12 @@ namespace DestinySharp.Core
                 }
             }
 
-
-
-            throw new System.Exception("Cannot find object " + nameof(item)+" in manifest!");
+            throw new System.Exception("Cannot find object " + nameof(item) + " in manifest!");
         }
 
         public AdvisorData GetAdvisorData(string membershipid, MembershipType type, bool definitions = false)
         {
-            RestRequest request = new RestRequest($"/{(int)type}/Account/{membershipid}/Advisors/");
+            var request = new RestRequest($"/{(int)type}/Account/{membershipid}/Advisors/");
             request.AddHeader("X-API-KEY", Apikey);
             request.AddParameter("definitions", definitions);
 
@@ -103,7 +103,6 @@ namespace DestinySharp.Core
             request.AddParameter("count", count);
             request.AddParameter("page", page);
             request.AddParameter("definitions", definitions);
-
 
             IRestResponse response = _client.Execute(request);
             var r = JsonConvert.DeserializeObject<DestinyServiceObjectResponse<ActivityData>>(response.Content);
@@ -138,7 +137,7 @@ namespace DestinySharp.Core
         /// <param name="type">DestinyDefinitionType of what the hash is. If it isn't obvious, try InventoryItem first.</param>
         /// <param name="definitions">Set to true if hashed object definitions should be returned in response</param>
         /// <returns></returns>
-        public T SingleQueryManifest<T> (ulong hash, DestinyDefinitionType type, bool definitions = false)
+        public T SingleQueryManifest<T>(ulong hash, DestinyDefinitionType type, bool definitions = false)
         {
             RestRequest request = new RestRequest($"/Manifest/{type}/{hash}/");
             request.AddHeader("X-API-KEY", Apikey);
@@ -148,8 +147,6 @@ namespace DestinySharp.Core
 
             return response.Data.Response.data;
         }
-
-
 
         /// <summary>
         /// Internal method used to grab the Membership id via name and console.
