@@ -2,6 +2,7 @@
 {
     public enum BungieMembershipType
     {
+        // TODO: DUPLICATE CLASS ? 
         None = 0,
         TigerXbox = 1,
         TigerPsn = 2,

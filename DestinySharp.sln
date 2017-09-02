@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinySharp.Core", "Destin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinySharp.Testing", "DestinySharp.Testing\DestinySharp.Testing.csproj", "{861CEB8B-5091-44F2-BB25-503DED7B651F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestinySharp.Console", "DestinySharp.Console\DestinySharp.Console.csproj", "{B80D68DD-78A7-4E05-A19B-7B1F1D5506C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{861CEB8B-5091-44F2-BB25-503DED7B651F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861CEB8B-5091-44F2-BB25-503DED7B651F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861CEB8B-5091-44F2-BB25-503DED7B651F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80D68DD-78A7-4E05-A19B-7B1F1D5506C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80D68DD-78A7-4E05-A19B-7B1F1D5506C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80D68DD-78A7-4E05-A19B-7B1F1D5506C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80D68DD-78A7-4E05-A19B-7B1F1D5506C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

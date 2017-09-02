@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DestinySharp.Core
 {
+    // TODO: DUPLICATE CLASS ? 
     /// <summary>
     /// Membershiptype that Bungie api takes
     /// </summary>

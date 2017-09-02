@@ -9,7 +9,8 @@ namespace DestinySharp.Testing
     [TestClass]
     public class UnitTest1
     {
-        readonly DestinyServiceExplorer _explorer = new DestinyServiceExplorer("token");
+        readonly DestinyServiceExplorer _explorer = new DestinyServiceExplorer(FullmetalfireflyApikey);
+        private const string FullmetalfireflyApikey = "5e7d9ff231914e179c83dc778d4cdeaa";
         private readonly string fullmetalfireflyDisplayName = "Vee_Teh_Neenja";
         private readonly MembershipType fullmetalfireflyMembershipType = MembershipType.PSN;
         private readonly string firesDisplayName = "Slackr4life24";

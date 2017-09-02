@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using DestinySharp.Core.DataTypes;
 using DestinySharp.Core.Entities;
+using DestinySharp.Core.Entities.Responses;
+using DestinySharp.Core.Entities.Responses.ResponseObject;
 using Newtonsoft.Json;
 using RestSharp;
 
@@ -119,13 +122,14 @@ namespace DestinySharp.Core
         /// <summary>
         ///     Get hashed character summary by name.
         /// </summary>
-        /// <param name="name">Gamertag/PSN Name</param>
+        /// <param name="displayName">Gamertag/PSN Name</param>
         /// <param name="type">Enum of which console.</param>
         /// <param name="definitions">Set to true if hashed object definitions should be returned in response</param>
         /// <returns></returns>
-        public CharacterSummaryData GetCharacterSummary(string name, MembershipType type, bool definitions = false)
+        public CharacterSummaryData GetCharacterSummary(string displayName, MembershipType type,
+            bool definitions = false)
         {
-            var request = new RestRequest($"/{(int) type}/Account/{GetMembershipId(name, type)}/Summary/");
+            var request = new RestRequest($"/{(int) type}/Account/{GetMembershipId(displayName, type)}/Summary/");
             request.AddHeader("X-API-KEY", Apikey);
             request.AddParameter("definitions", definitions);
 
@@ -158,16 +162,25 @@ namespace DestinySharp.Core
         /// <summary>
         ///     Internal method used to grab the Membership id via name and console.
         /// </summary>
-        /// <param name="name">Gamertag/PSN name</param>
+        /// <param name="displayName">Gamertag/PSN name</param>
         /// <param name="type">Enum of console</param>
         /// <returns></returns>
-        internal string GetMembershipId(string name, MembershipType type)
+        internal string GetMembershipId(string displayName, MembershipType type)
         {
-            var request = new RestRequest($"/{(int) type}/Stats/GetMembershipIdByDisplayName/{name}/");
+            var request = new RestRequest($"/{(int) type}/Stats/GetMembershipIdByDisplayName/{displayName}/");
             request.AddHeader("X-API-KEY", Apikey);
             var response = _client.Execute<DestinyServiceResponse>(request);
 
             return response.Data.Response;
+        }
+
+        public Player SearchDestinyPlayer(string displayName, MembershipType type)
+        {
+            var request = new RestRequest($"/SearchDestinyPlayer/{(int) type}/{displayName}");
+            request.AddHeader("X-API-KEY", Apikey);
+            var response = _client.Execute<Player>(request);
+
+            return response.Data;
         }
     }
 }
