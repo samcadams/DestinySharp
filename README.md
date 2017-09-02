@@ -5,7 +5,7 @@ For light weight applications, this may not be the project you're looking for.
 
 # DESTINY 2 PLAN
 
-Okay! We've finally heard about the D2 api.
+Okay! We've findally heard about the D2 api.
 
 D2 documentation will be live August 23. Giving us at this current time 3 weeks to finish up before we have a ton more ship to do.
 
