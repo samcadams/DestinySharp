@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <Version>0.2</Version>
+    <Authors>Fires and fullmetalfirefly</Authors>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>HEAVILY WIP - An unofficial C# wrapper for the Bungie/Destiny API.</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Fires1/DestinySharp</PackageProjectUrl>
+    <PackageTags>destiny-api</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RestSharp" Version="105.2.3" />
+  </ItemGroup>
+  
+</Project>
