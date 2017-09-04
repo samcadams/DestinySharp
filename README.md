@@ -3,11 +3,9 @@ DestinySharp's goal is to introduce a completely object oriented approach for th
 
 For light weight applications, this may not be the project you're looking for.
 
-# MyGet Feed 
+# Projects
 
-You can find our MyGet feed [here](https://www.myget.org/feed/destinysharp/package/nuget/DestinySharp)
-
-To request access: [Make an issue](https://github.com/Fires1/DestinySharp/issues/new)
+https://github.com/Fires1/DestinySharp/projects/2
 
 # Contributing
 
