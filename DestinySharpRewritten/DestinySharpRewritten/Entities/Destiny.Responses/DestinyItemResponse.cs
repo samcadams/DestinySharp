@@ -1,0 +1,12 @@
+
+using System;
+using System.Collections.Generic;
+using DestinySharp;
+
+namespace Destiny.Responses
+{
+    public class DestinyItemResponse
+    {
+        public int characterId;
+    }
+}
