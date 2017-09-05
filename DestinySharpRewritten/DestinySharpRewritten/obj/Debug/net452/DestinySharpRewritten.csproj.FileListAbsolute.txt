@@ -1,2 +1,5 @@
 E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.csproj.CoreCompileInputs.cache
 E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.AssemblyInfo.cs
+C:\Users\ulloav\source\repos\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.csprojResolveAssemblyReference.cache
+C:\Users\ulloav\source\repos\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.csproj.CoreCompileInputs.cache
+C:\Users\ulloav\source\repos\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.AssemblyInfo.cs

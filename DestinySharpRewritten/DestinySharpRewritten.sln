@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinySharpRewritten", "DestinySharpRewritten\DestinySharpRewritten.csproj", "{47BBE7A2-51B5-4212-8D55-48122F3D8624}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestinySharpRewritten.Test", "DestinySharpRewritten.Test\DestinySharpRewritten.Test.csproj", "{19CAE144-88C5-422D-990A-64323D1EA8A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47BBE7A2-51B5-4212-8D55-48122F3D8624} = {47BBE7A2-51B5-4212-8D55-48122F3D8624}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestinySharpRewritten.Console", "DestinySharpRewritten.Console\DestinySharpRewritten.Console.csproj", "{7CBBBD0E-40C2-408F-B2C3-8BAF393F26BE}"
 EndProject
