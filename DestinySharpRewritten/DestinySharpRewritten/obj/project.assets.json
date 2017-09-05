@@ -94,7 +94,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sam\\.nuget\\packages\\": {}
+    "C:\\Users\\ulloav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "0.2.0",
@@ -102,14 +102,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Users\\Sam\\Documents\\github\\DestinySharp\\DestinySharpRewritten\\DestinySharpRewritten\\DestinySharpRewritten.csproj",
+      "projectUniqueName": "C:\\Users\\ulloav\\Source\\Repos\\DestinySharp\\DestinySharpRewritten\\DestinySharpRewritten\\DestinySharpRewritten.csproj",
       "projectName": "DestinySharpRewritten",
-      "projectPath": "E:\\Users\\Sam\\Documents\\github\\DestinySharp\\DestinySharpRewritten\\DestinySharpRewritten\\DestinySharpRewritten.csproj",
-      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\Sam\\Documents\\github\\DestinySharp\\DestinySharpRewritten\\DestinySharpRewritten\\obj\\",
+      "projectPath": "C:\\Users\\ulloav\\Source\\Repos\\DestinySharp\\DestinySharpRewritten\\DestinySharpRewritten\\DestinySharpRewritten.csproj",
+      "packagesPath": "C:\\Users\\ulloav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ulloav\\Source\\Repos\\DestinySharp\\DestinySharpRewritten\\DestinySharpRewritten\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ulloav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -117,9 +117,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/destinysharp/auth/0ac4acac-5852-433c-8145-36012fcf04f4/api/v3/index.json": {},
-        "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net452": {
