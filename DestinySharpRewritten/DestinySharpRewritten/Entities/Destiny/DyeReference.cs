@@ -7,7 +7,7 @@ namespace Destiny
 {
     public class DyeReference
     {
-        public int channelHash;
-        public int dyeHash;
-    }
+		public ulong channelHash;
+		public ulong dyeHash;
+	}
 }

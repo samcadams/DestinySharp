@@ -7,6 +7,6 @@ namespace Destiny.Milestones
 {
     public class DestinyMilestoneActivityVariant
     {
-        public int activityHash;
-    }
+		public ulong activityHash;
+	}
 }

@@ -7,7 +7,7 @@ namespace Destiny.Definitions.Milestones
 {
     public class DestinyMilestoneValueDefinition
     {
-        public string key;
-        public Destiny.Definitions.Common.DestinyDisplayPropertiesDefinition displayProperties;
-    }
+		public string key;
+public Destiny.Definitions.Common.DestinyDisplayPropertiesDefinition displayProperties;
+	}
 }

@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorAcceptedItemDefinition
     {
-        public int acceptedInventoryBucketHash;
-        public int destinationInventoryBucketHash;
-    }
+		public ulong acceptedInventoryBucketHash;
+		public ulong destinationInventoryBucketHash;
+	}
 }

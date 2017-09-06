@@ -1,11 +1,11 @@
 namespace Destiny
 {
-    public enum ItemLocation
+        public enum ItemLocation
     {
-        Unknown = 0,
-        Inventory = 1,
-        Vault = 2,
-        Vendor = 3,
-        Postmaster = 4,
-    }
+Unknown = 0,
+Inventory = 1,
+Vault = 2,
+Vendor = 3,
+Postmaster = 4,
+}
 }

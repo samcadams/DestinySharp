@@ -7,7 +7,7 @@ namespace User
 {
     public class UserMembership
     {
-        public int membershipId;
-        public string displayName;
-    }
+		public int membershipId;
+		public string displayName;
+	}
 }

@@ -7,6 +7,6 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemSocketsComponent
     {
-        public Destiny.Entities.Items.DestinyItemSocketState[] sockets;
-    }
+		public Destiny.Entities.Items.DestinyItemSocketState[] sockets;
+	}
 }

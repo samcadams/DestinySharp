@@ -7,9 +7,9 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemSocketState
     {
-        public int plugHash;
-        public bool isEnabled;
-        public int[] enableFailIndexes;
-        public UInt32[] reusablePlugHashes;
-    }
+		public ulong plugHash;
+		public bool isEnabled;
+		public int[] enableFailIndexes;
+		public UInt32[] reusablePlugHashes;
+	}
 }

@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyItemSortType
+        public enum DestinyItemSortType
     {
-        ItemId = 0,
-        Timestamp = 1,
-        StackSize = 2,
-    }
+ItemId = 0,
+Timestamp = 1,
+StackSize = 2,
+}
 }

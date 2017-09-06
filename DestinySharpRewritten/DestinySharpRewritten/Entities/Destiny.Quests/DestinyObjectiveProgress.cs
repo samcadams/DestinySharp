@@ -7,10 +7,10 @@ namespace Destiny.Quests
 {
     public class DestinyObjectiveProgress
     {
-        public int objectiveHash;
-        public int destinationHash;
-        public int activityHash;
-        public int progress;
-        public bool complete;
-    }
+		public ulong objectiveHash;
+		public ulong destinationHash;
+		public ulong activityHash;
+		public int progress;
+		public bool complete;
+	}
 }

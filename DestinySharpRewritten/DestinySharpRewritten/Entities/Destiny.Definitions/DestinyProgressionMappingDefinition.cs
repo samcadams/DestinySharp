@@ -7,9 +7,9 @@ namespace Destiny.Definitions
 {
     public class DestinyProgressionMappingDefinition
     {
-        public string displayUnits;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public string displayUnits;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

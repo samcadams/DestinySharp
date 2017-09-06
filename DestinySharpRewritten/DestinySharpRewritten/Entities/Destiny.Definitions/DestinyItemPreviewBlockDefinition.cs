@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyItemPreviewBlockDefinition
     {
-        public int previewVendorHash;
-        public string previewActionString;
-        public Destiny.Definitions.Items.DestinyDerivedItemCategoryDefinition[] derivedItemCategories;
-    }
+		public ulong previewVendorHash;
+		public string previewActionString;
+		public Destiny.Definitions.Items.DestinyDerivedItemCategoryDefinition[] derivedItemCategories;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyTalentNodeCategory
     {
-        public string identifier;
-        public bool isLoreDriven;
-        public UInt32[] nodeHashes;
-    }
+		public string identifier;
+		public bool isLoreDriven;
+		public UInt32[] nodeHashes;
+	}
 }

@@ -7,9 +7,9 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSackBlockDefinition
     {
-        public string detailAction;
-        public string openAction;
-        public int selectItemCount;
-        public string vendorSackType;
-    }
+		public string detailAction;
+		public string openAction;
+		public int selectItemCount;
+		public string vendorSackType;
+	}
 }

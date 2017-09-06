@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyBubbleDefinition
     {
-        public int hash;
-    }
+		public ulong hash;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny
 {
     public class DestinyStat
     {
-        public int statHash;
-        public int value;
-        public int maximumValue;
-    }
+		public ulong statHash;
+		public int value;
+		public int maximumValue;
+	}
 }

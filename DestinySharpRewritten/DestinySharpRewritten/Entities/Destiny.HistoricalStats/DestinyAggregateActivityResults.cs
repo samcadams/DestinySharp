@@ -7,6 +7,6 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyAggregateActivityResults
     {
-        public Destiny.HistoricalStats.DestinyAggregateActivityStats[] activities;
-    }
+		public Destiny.HistoricalStats.DestinyAggregateActivityStats[] activities;
+	}
 }

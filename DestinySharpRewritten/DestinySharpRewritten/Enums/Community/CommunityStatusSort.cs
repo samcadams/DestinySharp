@@ -1,10 +1,10 @@
 namespace Community
 {
-    public enum CommunityStatusSort
+        public enum CommunityStatusSort
     {
-        Viewers = 0,
-        Trending = 1,
-        OverallViewers = 2,
-        Followers = 3,
-    }
+Viewers = 0,
+Trending = 1,
+OverallViewers = 2,
+Followers = 3,
+}
 }

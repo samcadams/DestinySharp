@@ -7,7 +7,7 @@ namespace Destiny.Milestones
 {
     public class DestinyPublicMilestoneChallenge
     {
-        public int objectiveHash;
-        public int activityHash;
-    }
+		public ulong objectiveHash;
+		public ulong activityHash;
+	}
 }

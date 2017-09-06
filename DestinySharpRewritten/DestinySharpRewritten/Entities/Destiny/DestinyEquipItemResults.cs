@@ -7,6 +7,6 @@ namespace Destiny
 {
     public class DestinyEquipItemResults
     {
-        public Destiny.DestinyEquipItemResult[] equipResults;
-    }
+		public Destiny.DestinyEquipItemResult[] equipResults;
+	}
 }

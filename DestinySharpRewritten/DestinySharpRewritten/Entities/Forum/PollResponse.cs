@@ -7,8 +7,8 @@ namespace Forum
 {
     public class PollResponse
     {
-        public int topicId;
-        public Forum.PollResult[] results;
-        public int totalVotes;
-    }
+		public int topicId;
+		public Forum.PollResult[] results;
+		public int totalVotes;
+	}
 }

@@ -7,6 +7,6 @@ namespace Components
 {
     public class ComponentResponse
     {
-        public Components.ComponentPrivacySetting privacy;
-    }
+public Components.ComponentPrivacySetting privacy;
+	}
 }

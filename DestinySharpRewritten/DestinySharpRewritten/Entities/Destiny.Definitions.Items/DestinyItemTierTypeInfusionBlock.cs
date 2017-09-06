@@ -7,7 +7,7 @@ namespace Destiny.Definitions.Items
 {
     public class DestinyItemTierTypeInfusionBlock
     {
-        public decimal baseQualityTransferRatio;
-        public int minimumQualityIncrement;
-    }
+		public decimal baseQualityTransferRatio;
+		public int minimumQualityIncrement;
+	}
 }

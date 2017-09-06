@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyActivityChallengeDefinition
     {
-        public int objectiveHash;
-    }
+		public ulong objectiveHash;
+	}
 }

@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorInteractionSackEntryDefinition
     {
-        public int sackType;
-    }
+		public ulong sackType;
+	}
 }

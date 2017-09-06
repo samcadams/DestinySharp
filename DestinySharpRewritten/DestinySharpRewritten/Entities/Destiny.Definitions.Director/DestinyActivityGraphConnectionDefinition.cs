@@ -7,7 +7,7 @@ namespace Destiny.Definitions.Director
 {
     public class DestinyActivityGraphConnectionDefinition
     {
-        public int sourceNodeHash;
-        public int destNodeHash;
-    }
+		public ulong sourceNodeHash;
+		public ulong destNodeHash;
+	}
 }

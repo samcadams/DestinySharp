@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSourceBlockDefinition
     {
-        public UInt32[] sourceHashes;
-        public Destiny.Definitions.Sources.DestinyItemSourceDefinition[] sources;
-    }
+		public UInt32[] sourceHashes;
+		public Destiny.Definitions.Sources.DestinyItemSourceDefinition[] sources;
+	}
 }

@@ -7,10 +7,10 @@ namespace Destiny.Definitions.Progression
 {
     public class DestinyProgressionLevelRequirementDefinition
     {
-        public Interpolation.InterpolationPointFloat[] requirementCurve;
-        public int progressionHash;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public Interpolation.InterpolationPointFloat[] requirementCurve;
+		public ulong progressionHash;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

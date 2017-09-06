@@ -7,7 +7,7 @@ namespace Messages.Responses
 {
     public class SaveMessageResult
     {
-        public int conversationId;
-        public int messageId;
-    }
+		public int conversationId;
+		public int messageId;
+	}
 }

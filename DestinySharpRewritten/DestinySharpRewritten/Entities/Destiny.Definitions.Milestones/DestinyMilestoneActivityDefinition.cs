@@ -7,6 +7,6 @@ namespace Destiny.Definitions.Milestones
 {
     public class DestinyMilestoneActivityDefinition
     {
-        public int conceptualActivityHash;
-    }
+		public ulong conceptualActivityHash;
+	}
 }

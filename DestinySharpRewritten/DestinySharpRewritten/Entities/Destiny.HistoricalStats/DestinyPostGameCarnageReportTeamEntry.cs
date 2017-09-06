@@ -7,7 +7,7 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyPostGameCarnageReportTeamEntry
     {
-        public int teamId;
-        public string teamName;
-    }
+		public int teamId;
+		public string teamName;
+	}
 }

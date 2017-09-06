@@ -7,7 +7,7 @@ namespace Trending
 {
     public class TrendingEntryDestinyActivity
     {
-        public int activityHash;
-        public Destiny.Activities.DestinyPublicActivityStatus status;
-    }
+		public ulong activityHash;
+public Destiny.Activities.DestinyPublicActivityStatus status;
+	}
 }

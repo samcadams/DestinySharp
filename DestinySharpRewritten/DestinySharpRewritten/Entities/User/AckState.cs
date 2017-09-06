@@ -7,7 +7,7 @@ namespace User
 {
     public class AckState
     {
-        public bool needsAck;
-        public string ackId;
-    }
+		public bool needsAck;
+		public string ackId;
+	}
 }

@@ -7,7 +7,7 @@ namespace Destiny.Character
 {
     public class DestinyItemPeerView
     {
-        public int itemHash;
-        public Destiny.DyeReference[] dyes;
-    }
+		public ulong itemHash;
+		public Destiny.DyeReference[] dyes;
+	}
 }

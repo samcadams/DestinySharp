@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyVendorInteractionRewardSelection
+        public enum DestinyVendorInteractionRewardSelection
     {
-        None = 0,
-        One = 1,
-        All = 2,
-    }
+None = 0,
+One = 1,
+All = 2,
+}
 }

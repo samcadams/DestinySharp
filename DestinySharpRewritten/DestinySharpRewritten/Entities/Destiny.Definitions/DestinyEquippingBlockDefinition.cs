@@ -7,10 +7,10 @@ namespace Destiny.Definitions
 {
     public class DestinyEquippingBlockDefinition
     {
-        public int gearsetItemHash;
-        public string uniqueLabel;
-        public int uniqueLabelHash;
-        public int equipmentSlotTypeHash;
-        public string[] displayStrings;
-    }
+		public ulong gearsetItemHash;
+		public string uniqueLabel;
+		public ulong uniqueLabelHash;
+		public ulong equipmentSlotTypeHash;
+		public string[] displayStrings;
+	}
 }

@@ -7,5 +7,5 @@ namespace Destiny.Challenges
 {
     public class DestinyChallengeStatus
     {
-    }
+	}
 }

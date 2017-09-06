@@ -7,9 +7,9 @@ namespace Destiny.Definitions.Common
 {
     public class DestinyDisplayPropertiesDefinition
     {
-        public string description;
-        public string name;
-        public string icon;
-        public bool hasIcon;
-    }
+		public string description;
+		public string name;
+		public string icon;
+		public bool hasIcon;
+	}
 }

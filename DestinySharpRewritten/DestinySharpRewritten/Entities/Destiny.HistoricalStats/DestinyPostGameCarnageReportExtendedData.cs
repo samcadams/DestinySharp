@@ -7,6 +7,6 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyPostGameCarnageReportExtendedData
     {
-        public Destiny.HistoricalStats.DestinyHistoricalWeaponStats[] weapons;
-    }
+		public Destiny.HistoricalStats.DestinyHistoricalWeaponStats[] weapons;
+	}
 }

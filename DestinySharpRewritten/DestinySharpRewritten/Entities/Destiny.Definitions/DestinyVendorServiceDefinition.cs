@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorServiceDefinition
     {
-        public string name;
-    }
+		public string name;
+	}
 }

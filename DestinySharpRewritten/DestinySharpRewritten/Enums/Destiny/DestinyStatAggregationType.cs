@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyStatAggregationType
+        public enum DestinyStatAggregationType
     {
-        CharacterAverage = 0,
-        Character = 1,
-        Item = 2,
-    }
+CharacterAverage = 0,
+Character = 1,
+Item = 2,
+}
 }

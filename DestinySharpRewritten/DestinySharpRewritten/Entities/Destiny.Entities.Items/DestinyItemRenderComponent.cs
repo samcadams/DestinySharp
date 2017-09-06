@@ -7,6 +7,6 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemRenderComponent
     {
-        public bool useCustomDyes;
-    }
+		public bool useCustomDyes;
+	}
 }

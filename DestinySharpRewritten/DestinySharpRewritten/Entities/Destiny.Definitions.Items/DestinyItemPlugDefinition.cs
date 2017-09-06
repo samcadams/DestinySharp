@@ -7,13 +7,13 @@ namespace Destiny.Definitions.Items
 {
     public class DestinyItemPlugDefinition
     {
-        public Destiny.Definitions.Items.DestinyPlugRuleDefinition[] insertionRules;
-        public string plugCategoryIdentifier;
-        public int plugCategoryHash;
-        public bool onActionRecreateSelf;
-        public int insertionMaterialRequirementHash;
-        public int previewItemOverrideHash;
-        public int enabledMaterialRequirementHash;
-        public Destiny.Definitions.Items.DestinyPlugRuleDefinition[] enabledRules;
-    }
+		public Destiny.Definitions.Items.DestinyPlugRuleDefinition[] insertionRules;
+		public string plugCategoryIdentifier;
+		public ulong plugCategoryHash;
+		public bool onActionRecreateSelf;
+		public ulong insertionMaterialRequirementHash;
+		public ulong previewItemOverrideHash;
+		public ulong enabledMaterialRequirementHash;
+		public Destiny.Definitions.Items.DestinyPlugRuleDefinition[] enabledRules;
+	}
 }

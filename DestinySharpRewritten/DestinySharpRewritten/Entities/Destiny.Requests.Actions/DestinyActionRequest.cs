@@ -7,6 +7,6 @@ namespace Destiny.Requests.Actions
 {
     public class DestinyActionRequest
     {
-        public DestinySharp.BungieMembershipType membershipType;
-    }
+public  DestinySharp.BungieMembershipType membershipType;
+	}
 }

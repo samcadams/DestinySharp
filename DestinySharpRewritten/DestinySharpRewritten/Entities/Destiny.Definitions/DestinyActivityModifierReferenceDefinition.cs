@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyActivityModifierReferenceDefinition
     {
-        public int activityModifierHash;
-    }
+		public ulong activityModifierHash;
+	}
 }

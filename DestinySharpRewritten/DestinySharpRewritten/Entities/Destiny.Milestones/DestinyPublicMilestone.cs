@@ -7,10 +7,10 @@ namespace Destiny.Milestones
 {
     public class DestinyPublicMilestone
     {
-        public int milestoneHash;
-        public Destiny.Milestones.DestinyPublicMilestoneQuest[] availableQuests;
-        public UInt32[] vendorHashes;
-        public string startDate;
-        public string endDate;
-    }
+		public ulong milestoneHash;
+		public Destiny.Milestones.DestinyPublicMilestoneQuest[] availableQuests;
+		public UInt32[] vendorHashes;
+		public string startDate;
+		public string endDate;
+	}
 }

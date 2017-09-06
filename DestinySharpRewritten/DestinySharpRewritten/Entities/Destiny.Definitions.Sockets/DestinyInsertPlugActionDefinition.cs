@@ -7,6 +7,6 @@ namespace Destiny.Definitions.Sockets
 {
     public class DestinyInsertPlugActionDefinition
     {
-        public int actionExecuteSeconds;
-    }
+		public int actionExecuteSeconds;
+	}
 }

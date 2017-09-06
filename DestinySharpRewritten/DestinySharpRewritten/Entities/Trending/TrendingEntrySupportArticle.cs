@@ -7,6 +7,6 @@ namespace Trending
 {
     public class TrendingEntrySupportArticle
     {
-        public Content.ContentItemPublicContract article;
-    }
+public Content.ContentItemPublicContract article;
+	}
 }

@@ -7,6 +7,6 @@ namespace Destiny.Character
 {
     public class DestinyCharacterPeerView
     {
-        public Destiny.Character.DestinyItemPeerView[] equipment;
-    }
+		public Destiny.Character.DestinyItemPeerView[] equipment;
+	}
 }

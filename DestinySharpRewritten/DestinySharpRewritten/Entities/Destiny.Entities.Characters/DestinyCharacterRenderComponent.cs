@@ -7,6 +7,6 @@ namespace Destiny.Entities.Characters
 {
     public class DestinyCharacterRenderComponent
     {
-        public Destiny.DyeReference[] customDyes;
-    }
+		public Destiny.DyeReference[] customDyes;
+	}
 }

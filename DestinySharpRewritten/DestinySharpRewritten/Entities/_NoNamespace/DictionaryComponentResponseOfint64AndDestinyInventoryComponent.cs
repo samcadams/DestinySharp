@@ -7,6 +7,6 @@ namespace DestinySharp
 {
     public class DictionaryComponentResponseOfint64AndDestinyInventoryComponent
     {
-        public Components.ComponentPrivacySetting privacy;
-    }
+public Components.ComponentPrivacySetting privacy;
+	}
 }

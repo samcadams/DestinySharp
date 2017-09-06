@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemValueBlockDefinition
     {
-        public Destiny.DestinyItemQuantity[] itemValue;
-        public string valueDescription;
-    }
+		public Destiny.DestinyItemQuantity[] itemValue;
+		public string valueDescription;
+	}
 }

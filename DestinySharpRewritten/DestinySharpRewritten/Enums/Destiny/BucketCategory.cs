@@ -1,11 +1,11 @@
 namespace Destiny
 {
-    public enum BucketCategory
+        public enum BucketCategory
     {
-        Invisible = 0,
-        Item = 1,
-        Currency = 2,
-        Equippable = 3,
-        Ignored = 4,
-    }
+Invisible = 0,
+Item = 1,
+Currency = 2,
+Equippable = 3,
+Ignored = 4,
+}
 }

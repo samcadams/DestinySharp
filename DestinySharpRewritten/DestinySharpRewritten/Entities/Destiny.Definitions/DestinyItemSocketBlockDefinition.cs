@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSocketBlockDefinition
     {
-        public string detail;
-        public Destiny.Definitions.DestinyItemSocketEntryDefinition[] socketEntries;
-        public Destiny.Definitions.DestinyItemSocketCategoryDefinition[] socketCategories;
-    }
+		public string detail;
+		public Destiny.Definitions.DestinyItemSocketEntryDefinition[] socketEntries;
+		public Destiny.Definitions.DestinyItemSocketCategoryDefinition[] socketCategories;
+	}
 }

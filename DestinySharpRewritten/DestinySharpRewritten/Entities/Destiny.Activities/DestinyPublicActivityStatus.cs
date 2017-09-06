@@ -7,8 +7,8 @@ namespace Destiny.Activities
 {
     public class DestinyPublicActivityStatus
     {
-        public UInt32[] challengeObjectiveHashes;
-        public UInt32[] modifierHashes;
-        public Destiny.DestinyItemQuantity[] rewardTooltipItems;
-    }
+		public UInt32[] challengeObjectiveHashes;
+		public UInt32[] modifierHashes;
+		public Destiny.DestinyItemQuantity[] rewardTooltipItems;
+	}
 }

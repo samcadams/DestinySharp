@@ -1,9 +1,9 @@
 namespace GroupsV2
 {
-    public enum GroupPotentialMemberStatus
+        public enum GroupPotentialMemberStatus
     {
-        None = 0,
-        Applicant = 1,
-        Invitee = 2,
-    }
+None = 0,
+Applicant = 1,
+Invitee = 2,
+}
 }

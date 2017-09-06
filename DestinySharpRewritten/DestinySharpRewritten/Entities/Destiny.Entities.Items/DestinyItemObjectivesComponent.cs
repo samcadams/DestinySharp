@@ -7,6 +7,6 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemObjectivesComponent
     {
-        public Destiny.Quests.DestinyObjectiveProgress[] objectives;
-    }
+		public Destiny.Quests.DestinyObjectiveProgress[] objectives;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny.Definitions.Animations
 {
     public class DestinyAnimationReference
     {
-        public string animName;
-        public string animIdentifier;
-        public string path;
-    }
+		public string animName;
+		public string animIdentifier;
+		public string path;
+	}
 }

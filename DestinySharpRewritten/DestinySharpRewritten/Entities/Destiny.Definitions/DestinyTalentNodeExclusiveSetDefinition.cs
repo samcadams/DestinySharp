@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyTalentNodeExclusiveSetDefinition
     {
-        public int[] nodeIndexes;
-    }
+		public int[] nodeIndexes;
+	}
 }

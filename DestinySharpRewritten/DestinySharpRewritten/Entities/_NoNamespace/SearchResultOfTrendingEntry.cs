@@ -7,11 +7,11 @@ namespace DestinySharp
 {
     public class SearchResultOfTrendingEntry
     {
-        public Trending.TrendingEntry[] results;
-        public int totalResults;
-        public bool hasMore;
-        public Queries.PagedQuery query;
-        public string replacementContinuationToken;
-        public bool useTotalResults;
-    }
+		public Trending.TrendingEntry[] results;
+		public int totalResults;
+		public bool hasMore;
+public Queries.PagedQuery query;
+		public string replacementContinuationToken;
+		public bool useTotalResults;
+	}
 }

@@ -7,7 +7,7 @@ namespace Destiny.Milestones
 {
     public class DestinyMilestoneRewardCategory
     {
-        public int rewardCategoryHash;
-        public Destiny.Milestones.DestinyMilestoneRewardEntry[] entries;
-    }
+		public ulong rewardCategoryHash;
+		public Destiny.Milestones.DestinyMilestoneRewardEntry[] entries;
+	}
 }

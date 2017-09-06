@@ -7,6 +7,6 @@ namespace User.Models
 {
     public class UserAlias
     {
-        public string cachePrefix;
-    }
+		public string cachePrefix;
+	}
 }

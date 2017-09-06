@@ -7,7 +7,7 @@ namespace Ignores
 {
     public class IgnoreResponse
     {
-        public bool isIgnored;
-        public Ignores.IgnoreStatus ignoreFlags;
-    }
+		public bool isIgnored;
+public Ignores.IgnoreStatus ignoreFlags;
+	}
 }

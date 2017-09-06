@@ -7,6 +7,6 @@ namespace Destiny.Responses
 {
     public class DestinyItemResponse
     {
-        public int characterId;
-    }
+		public int characterId;
+	}
 }

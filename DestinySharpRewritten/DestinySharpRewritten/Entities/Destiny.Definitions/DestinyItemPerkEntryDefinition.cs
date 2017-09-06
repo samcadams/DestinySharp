@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemPerkEntryDefinition
     {
-        public string requirementDisplayString;
-        public int perkHash;
-    }
+		public string requirementDisplayString;
+		public ulong perkHash;
+	}
 }

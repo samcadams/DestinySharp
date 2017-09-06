@@ -7,12 +7,12 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemInstanceComponent
     {
-        public int damageTypeHash;
-        public int itemLevel;
-        public int quality;
-        public bool isEquipped;
-        public bool canEquip;
-        public int equipRequiredLevel;
-        public UInt32[] unlockHashesRequiredToEquip;
-    }
+		public ulong damageTypeHash;
+		public int itemLevel;
+		public int quality;
+		public bool isEquipped;
+		public bool canEquip;
+		public int equipRequiredLevel;
+		public UInt32[] unlockHashesRequiredToEquip;
+	}
 }

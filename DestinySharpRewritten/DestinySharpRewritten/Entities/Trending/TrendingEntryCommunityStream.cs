@@ -7,9 +7,9 @@ namespace Trending
 {
     public class TrendingEntryCommunityStream
     {
-        public string image;
-        public string title;
-        public string partnershipIdentifier;
-        public Partnerships.PartnershipType partnershipType;
-    }
+		public string image;
+		public string title;
+		public string partnershipIdentifier;
+public Partnerships.PartnershipType partnershipType;
+	}
 }

@@ -1,9 +1,9 @@
 namespace GroupsV2
 {
-    public enum GroupPostPublicity
+        public enum GroupPostPublicity
     {
-        Public = 0,
-        Alliance = 1,
-        Private = 2,
-    }
+Public = 0,
+Alliance = 1,
+Private = 2,
+}
 }

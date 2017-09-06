@@ -7,6 +7,6 @@ namespace Trending
 {
     public class TrendingCategories
     {
-        public Trending.TrendingCategory[] categories;
-    }
+		public Trending.TrendingCategory[] categories;
+	}
 }

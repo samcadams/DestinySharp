@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyEntitySearchResultItem
     {
-        public int hash;
-        public string entityType;
-        public decimal weight;
-    }
+		public ulong hash;
+		public string entityType;
+		public decimal weight;
+	}
 }

@@ -7,10 +7,10 @@ namespace Queries
 {
     public class SearchResult
     {
-        public int totalResults;
-        public bool hasMore;
-        public Queries.PagedQuery query;
-        public string replacementContinuationToken;
-        public bool useTotalResults;
-    }
+		public int totalResults;
+		public bool hasMore;
+public Queries.PagedQuery query;
+		public string replacementContinuationToken;
+		public bool useTotalResults;
+	}
 }

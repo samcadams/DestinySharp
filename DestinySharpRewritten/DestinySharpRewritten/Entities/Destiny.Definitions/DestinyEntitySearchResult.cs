@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyEntitySearchResult
     {
-        public string[] suggestedWords;
-    }
+		public string[] suggestedWords;
+	}
 }

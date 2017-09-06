@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyItemCreationEntryLevelDefinition
     {
-        public int level;
-    }
+		public int level;
+	}
 }

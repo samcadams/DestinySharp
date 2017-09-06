@@ -1,2 +1,9 @@
 E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.csproj.CoreCompileInputs.cache
 E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.AssemblyInfo.cs
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\bin\Debug\net452\DestinySharpRewritten.dll
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\bin\Debug\net452\DestinySharpRewritten.pdb
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\bin\Debug\net452\Newtonsoft.Json.dll
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\bin\Debug\net452\RestSharp.dll
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.dll
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.pdb
+E:\Users\Sam\Documents\github\DestinySharp\DestinySharpRewritten\DestinySharpRewritten\obj\Debug\net452\DestinySharpRewritten.csprojResolveAssemblyReference.cache

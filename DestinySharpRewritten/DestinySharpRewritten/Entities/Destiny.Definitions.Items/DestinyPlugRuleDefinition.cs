@@ -7,6 +7,6 @@ namespace Destiny.Definitions.Items
 {
     public class DestinyPlugRuleDefinition
     {
-        public string failureMessage;
-    }
+		public string failureMessage;
+	}
 }

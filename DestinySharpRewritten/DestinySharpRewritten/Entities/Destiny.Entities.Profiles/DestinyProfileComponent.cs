@@ -7,7 +7,7 @@ namespace Destiny.Entities.Profiles
 {
     public class DestinyProfileComponent
     {
-        public string dateLastPlayed;
-        public ulong[] characterIds;
-    }
+		public string dateLastPlayed;
+		public ulong[] characterIds;
+	}
 }

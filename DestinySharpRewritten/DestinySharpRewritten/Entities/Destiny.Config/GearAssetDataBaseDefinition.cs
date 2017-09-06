@@ -7,7 +7,7 @@ namespace Destiny.Config
 {
     public class GearAssetDataBaseDefinition
     {
-        public int version;
-        public string path;
-    }
+		public int version;
+		public string path;
+	}
 }

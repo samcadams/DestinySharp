@@ -7,7 +7,7 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyLeaderboardEntry
     {
-        public int rank;
-        public int characterId;
-    }
+		public int rank;
+		public int characterId;
+	}
 }

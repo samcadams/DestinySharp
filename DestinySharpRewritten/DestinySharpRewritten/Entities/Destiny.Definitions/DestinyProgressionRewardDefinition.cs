@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyProgressionRewardDefinition
     {
-        public int progressionMappingHash;
-        public int amount;
-        public bool applyThrottles;
-    }
+		public ulong progressionMappingHash;
+		public int amount;
+		public bool applyThrottles;
+	}
 }

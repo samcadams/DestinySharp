@@ -7,9 +7,9 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyHistoricalStatsActivity
     {
-        public int referenceId;
-        public int instanceId;
-        public int activityTypeHashOverride;
-        public bool isPrivate;
-    }
+		public ulong referenceId;
+		public int instanceId;
+		public ulong activityTypeHashOverride;
+		public bool isPrivate;
+	}
 }

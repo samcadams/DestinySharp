@@ -7,5 +7,5 @@ namespace Destiny.Definitions.Director
 {
     public class DestinyActivityGraphNodeFeaturingStateDefinition
     {
-    }
+	}
 }

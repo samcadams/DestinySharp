@@ -7,6 +7,6 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyHistoricalStatsPeriodGroup
     {
-        public string period;
-    }
+		public string period;
+	}
 }

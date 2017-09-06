@@ -1,8 +1,8 @@
 namespace Destiny
 {
-    public enum BucketScope
+        public enum BucketScope
     {
-        Character = 0,
-        Account = 1,
-    }
+Character = 0,
+Account = 1,
+}
 }

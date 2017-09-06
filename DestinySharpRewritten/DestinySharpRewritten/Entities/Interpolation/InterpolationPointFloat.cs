@@ -7,7 +7,7 @@ namespace Interpolation
 {
     public class InterpolationPointFloat
     {
-        public decimal value;
-        public decimal weight;
-    }
+		public decimal value;
+		public decimal weight;
+	}
 }

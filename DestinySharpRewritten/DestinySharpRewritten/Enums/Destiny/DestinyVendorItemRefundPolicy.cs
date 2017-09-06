@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyVendorItemRefundPolicy
+        public enum DestinyVendorItemRefundPolicy
     {
-        NotRefundable = 0,
-        DeletesItem = 1,
-        RevokesLicense = 2,
-    }
+NotRefundable = 0,
+DeletesItem = 1,
+RevokesLicense = 2,
+}
 }

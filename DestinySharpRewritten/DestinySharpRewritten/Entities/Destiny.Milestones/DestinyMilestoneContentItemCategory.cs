@@ -7,7 +7,7 @@ namespace Destiny.Milestones
 {
     public class DestinyMilestoneContentItemCategory
     {
-        public string title;
-        public UInt32[] itemHashes;
-    }
+		public string title;
+		public UInt32[] itemHashes;
+	}
 }

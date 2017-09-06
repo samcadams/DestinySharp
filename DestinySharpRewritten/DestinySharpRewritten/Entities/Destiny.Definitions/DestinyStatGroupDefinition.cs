@@ -7,11 +7,11 @@ namespace Destiny.Definitions
 {
     public class DestinyStatGroupDefinition
     {
-        public int maximumValue;
-        public int uiPosition;
-        public Destiny.Definitions.DestinyStatDisplayDefinition[] scaledStats;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public int maximumValue;
+		public int uiPosition;
+		public Destiny.Definitions.DestinyStatDisplayDefinition[] scaledStats;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

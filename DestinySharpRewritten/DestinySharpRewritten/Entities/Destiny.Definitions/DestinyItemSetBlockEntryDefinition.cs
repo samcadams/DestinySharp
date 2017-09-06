@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSetBlockEntryDefinition
     {
-        public int trackingValue;
-        public int itemHash;
-    }
+		public int trackingValue;
+		public ulong itemHash;
+	}
 }

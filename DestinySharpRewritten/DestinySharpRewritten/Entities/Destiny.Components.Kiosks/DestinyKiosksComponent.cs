@@ -7,5 +7,5 @@ namespace Destiny.Components.Kiosks
 {
     public class DestinyKiosksComponent
     {
-    }
+	}
 }

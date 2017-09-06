@@ -7,7 +7,7 @@ namespace Interpolation
 {
     public class InterpolationPoint
     {
-        public int value;
-        public int weight;
-    }
+		public int value;
+		public int weight;
+	}
 }

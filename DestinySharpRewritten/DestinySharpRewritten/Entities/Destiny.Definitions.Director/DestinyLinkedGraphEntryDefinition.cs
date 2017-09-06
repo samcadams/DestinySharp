@@ -7,6 +7,6 @@ namespace Destiny.Definitions.Director
 {
     public class DestinyLinkedGraphEntryDefinition
     {
-        public int activityGraphHash;
-    }
+		public ulong activityGraphHash;
+	}
 }

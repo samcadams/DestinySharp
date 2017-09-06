@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyActivityGraphListEntryDefinition
     {
-        public int activityGraphHash;
-    }
+		public ulong activityGraphHash;
+	}
 }

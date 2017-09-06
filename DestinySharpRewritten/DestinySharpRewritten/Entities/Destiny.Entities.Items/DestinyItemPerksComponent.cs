@@ -7,6 +7,6 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemPerksComponent
     {
-        public Destiny.Perks.DestinyPerkReference[] perks;
-    }
+		public Destiny.Perks.DestinyPerkReference[] perks;
+	}
 }

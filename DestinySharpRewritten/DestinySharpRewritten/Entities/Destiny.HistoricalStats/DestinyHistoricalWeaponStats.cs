@@ -7,6 +7,6 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyHistoricalWeaponStats
     {
-        public int referenceId;
-    }
+		public ulong referenceId;
+	}
 }

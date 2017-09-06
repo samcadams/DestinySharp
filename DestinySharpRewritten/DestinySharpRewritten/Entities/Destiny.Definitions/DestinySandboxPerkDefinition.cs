@@ -7,11 +7,11 @@ namespace Destiny.Definitions
 {
     public class DestinySandboxPerkDefinition
     {
-        public string perkIdentifier;
-        public bool isDisplayable;
-        public int damageTypeHash;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public string perkIdentifier;
+		public bool isDisplayable;
+		public ulong damageTypeHash;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

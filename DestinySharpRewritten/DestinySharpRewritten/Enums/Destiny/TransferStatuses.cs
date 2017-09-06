@@ -1,10 +1,10 @@
 namespace Destiny
 {
-    public enum TransferStatuses
+        public enum TransferStatuses
     {
-        CanTransfer = 0,
-        ItemIsEquipped = 1,
-        NotTransferrable = 2,
-        NoRoomInDestination = 4,
-    }
+CanTransfer = 0,
+ItemIsEquipped = 1,
+NotTransferrable = 2,
+NoRoomInDestination = 4,
+}
 }

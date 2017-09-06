@@ -7,6 +7,6 @@ namespace Destiny.Entities.Characters
 {
     public class DestinyCharacterProgressionComponent
     {
-        public Destiny.Quests.DestinyQuestStatus[] quests;
-    }
+		public Destiny.Quests.DestinyQuestStatus[] quests;
+	}
 }

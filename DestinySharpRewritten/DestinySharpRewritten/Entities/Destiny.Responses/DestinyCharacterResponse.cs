@@ -7,5 +7,5 @@ namespace Destiny.Responses
 {
     public class DestinyCharacterResponse
     {
-    }
+	}
 }

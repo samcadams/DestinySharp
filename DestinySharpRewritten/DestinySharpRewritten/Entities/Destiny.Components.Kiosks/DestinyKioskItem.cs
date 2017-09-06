@@ -7,8 +7,8 @@ namespace Destiny.Components.Kiosks
 {
     public class DestinyKioskItem
     {
-        public int index;
-        public bool canAcquire;
-        public int[] failureIndexes;
-    }
+		public int index;
+		public bool canAcquire;
+		public int[] failureIndexes;
+	}
 }

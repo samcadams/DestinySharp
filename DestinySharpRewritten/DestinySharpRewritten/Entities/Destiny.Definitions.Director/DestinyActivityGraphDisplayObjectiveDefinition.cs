@@ -7,7 +7,7 @@ namespace Destiny.Definitions.Director
 {
     public class DestinyActivityGraphDisplayObjectiveDefinition
     {
-        public int id;
-        public int objectiveHash;
-    }
+		public ulong id;
+		public ulong objectiveHash;
+	}
 }

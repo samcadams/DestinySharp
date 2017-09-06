@@ -7,7 +7,7 @@ namespace Dates
 {
     public class DateRange
     {
-        public string start;
-        public string end;
-    }
+		public string start;
+		public string end;
+	}
 }

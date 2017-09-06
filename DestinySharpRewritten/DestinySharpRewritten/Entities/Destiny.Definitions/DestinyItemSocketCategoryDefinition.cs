@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSocketCategoryDefinition
     {
-        public int socketCategoryHash;
-        public int[] socketIndexes;
-    }
+		public ulong socketCategoryHash;
+		public int[] socketIndexes;
+	}
 }

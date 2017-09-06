@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyActivityUnlockStringDefinition
     {
-        public string displayString;
-    }
+		public string displayString;
+	}
 }

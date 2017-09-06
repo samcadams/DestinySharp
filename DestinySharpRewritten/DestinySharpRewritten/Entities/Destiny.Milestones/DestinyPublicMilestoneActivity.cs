@@ -7,8 +7,8 @@ namespace Destiny.Milestones
 {
     public class DestinyPublicMilestoneActivity
     {
-        public int activityHash;
-        public UInt32[] modifierHashes;
-        public Destiny.Milestones.DestinyPublicMilestoneActivityVariant[] variants;
-    }
+		public ulong activityHash;
+		public UInt32[] modifierHashes;
+		public Destiny.Milestones.DestinyPublicMilestoneActivityVariant[] variants;
+	}
 }

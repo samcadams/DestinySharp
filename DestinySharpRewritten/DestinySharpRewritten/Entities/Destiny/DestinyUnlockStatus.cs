@@ -7,7 +7,7 @@ namespace Destiny
 {
     public class DestinyUnlockStatus
     {
-        public int unlockHash;
-        public bool isSet;
-    }
+		public ulong unlockHash;
+		public bool isSet;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny.Definitions.Milestones
 {
     public class DestinyMilestoneRewardCategoryDefinition
     {
-        public int categoryHash;
-        public string categoryIdentifier;
-        public int order;
-    }
+		public ulong categoryHash;
+		public string categoryIdentifier;
+		public int order;
+	}
 }

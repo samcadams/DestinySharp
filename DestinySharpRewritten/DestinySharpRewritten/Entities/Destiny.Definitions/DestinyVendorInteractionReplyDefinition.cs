@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorInteractionReplyDefinition
     {
-        public string reply;
-    }
+		public string reply;
+	}
 }

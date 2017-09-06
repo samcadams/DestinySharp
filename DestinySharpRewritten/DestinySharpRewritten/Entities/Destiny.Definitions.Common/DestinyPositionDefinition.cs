@@ -7,8 +7,8 @@ namespace Destiny.Definitions.Common
 {
     public class DestinyPositionDefinition
     {
-        public int x;
-        public int y;
-        public int z;
-    }
+		public int x;
+		public int y;
+		public int z;
+	}
 }

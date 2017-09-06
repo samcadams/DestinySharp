@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyUnlockDefinition
     {
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

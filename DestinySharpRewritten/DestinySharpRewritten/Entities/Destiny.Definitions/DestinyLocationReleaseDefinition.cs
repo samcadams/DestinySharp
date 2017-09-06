@@ -7,14 +7,14 @@ namespace Destiny.Definitions
 {
     public class DestinyLocationReleaseDefinition
     {
-        public int spawnPoint;
-        public int destinationHash;
-        public int activityHash;
-        public int activityGraphHash;
-        public int activityGraphNodeHash;
-        public int activityBubbleName;
-        public int activityPathBundle;
-        public int activityPathDestination;
-        public int[] worldPosition;
-    }
+		public ulong spawnPoint;
+		public ulong destinationHash;
+		public ulong activityHash;
+		public ulong activityGraphHash;
+		public ulong activityGraphNodeHash;
+		public ulong activityBubbleName;
+		public ulong activityPathBundle;
+		public ulong activityPathDestination;
+		public int[] worldPosition;
+	}
 }

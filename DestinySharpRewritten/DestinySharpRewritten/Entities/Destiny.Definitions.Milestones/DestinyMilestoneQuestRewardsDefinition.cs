@@ -7,6 +7,6 @@ namespace Destiny.Definitions.Milestones
 {
     public class DestinyMilestoneQuestRewardsDefinition
     {
-        public Destiny.Definitions.Milestones.DestinyMilestoneQuestRewardItem[] items;
-    }
+		public Destiny.Definitions.Milestones.DestinyMilestoneQuestRewardItem[] items;
+	}
 }

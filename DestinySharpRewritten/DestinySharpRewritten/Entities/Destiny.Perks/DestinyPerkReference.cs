@@ -7,9 +7,9 @@ namespace Destiny.Perks
 {
     public class DestinyPerkReference
     {
-        public int perkHash;
-        public string iconPath;
-        public bool isActive;
-        public bool visible;
-    }
+		public ulong perkHash;
+		public string iconPath;
+		public bool isActive;
+		public bool visible;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSocketEntryDefinition
     {
-        public int socketTypeHash;
-        public int singleInitialItemHash;
-        public Destiny.Definitions.DestinyItemSocketEntryPlugItemDefinition[] reusablePlugItems;
-    }
+		public ulong socketTypeHash;
+		public ulong singleInitialItemHash;
+		public Destiny.Definitions.DestinyItemSocketEntryPlugItemDefinition[] reusablePlugItems;
+	}
 }

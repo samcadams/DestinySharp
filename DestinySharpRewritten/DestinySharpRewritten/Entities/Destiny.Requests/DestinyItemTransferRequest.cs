@@ -7,11 +7,11 @@ namespace Destiny.Requests
 {
     public class DestinyItemTransferRequest
     {
-        public int itemReferenceHash;
-        public int stackSize;
-        public bool transferToVault;
-        public int itemId;
-        public int characterId;
-        public DestinySharp.BungieMembershipType membershipType;
-    }
+		public ulong itemReferenceHash;
+		public int stackSize;
+		public bool transferToVault;
+		public int itemId;
+		public int characterId;
+public  DestinySharp.BungieMembershipType membershipType;
+	}
 }

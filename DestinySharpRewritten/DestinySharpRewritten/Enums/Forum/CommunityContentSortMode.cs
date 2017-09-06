@@ -1,9 +1,9 @@
 namespace Forum
 {
-    public enum CommunityContentSortMode
+        public enum CommunityContentSortMode
     {
-        Trending = 0,
-        Latest = 1,
-        HighestRated = 2,
-    }
+Trending = 0,
+Latest = 1,
+HighestRated = 2,
+}
 }

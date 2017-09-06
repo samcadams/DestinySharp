@@ -7,10 +7,10 @@ namespace Destiny.Definitions
 {
     public class DestinyLocationDefinition
     {
-        public int vendorHash;
-        public Destiny.Definitions.DestinyLocationReleaseDefinition[] locationReleases;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public ulong vendorHash;
+		public Destiny.Definitions.DestinyLocationReleaseDefinition[] locationReleases;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

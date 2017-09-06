@@ -7,7 +7,7 @@ namespace Links
 {
     public class HyperlinkReference
     {
-        public string title;
-        public string url;
-    }
+		public string title;
+		public string url;
+	}
 }

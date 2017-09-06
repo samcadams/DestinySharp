@@ -7,9 +7,9 @@ namespace User
 {
     public class UserInfoCard
     {
-        public string supplementalDisplayName;
-        public string iconPath;
-        public int membershipId;
-        public string displayName;
-    }
+		public string supplementalDisplayName;
+		public string iconPath;
+		public int membershipId;
+		public string displayName;
+	}
 }

@@ -1,10 +1,10 @@
 namespace Destiny
 {
-    public enum DestinyClass
+        public enum DestinyClass
     {
-        Titan = 0,
-        Hunter = 1,
-        Warlock = 2,
-        Unknown = 3,
-    }
+Titan = 0,
+Hunter = 1,
+Warlock = 2,
+Unknown = 3,
+}
 }

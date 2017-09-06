@@ -7,7 +7,7 @@ namespace DestinySharp
 {
     public class SingleComponentResponseOfDestinyItemTalentGridComponent
     {
-        public Destiny.Entities.Items.DestinyItemTalentGridComponent data;
-        public Components.ComponentPrivacySetting privacy;
-    }
+public Destiny.Entities.Items.DestinyItemTalentGridComponent data;
+public Components.ComponentPrivacySetting privacy;
+	}
 }

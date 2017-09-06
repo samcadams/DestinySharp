@@ -1,8 +1,8 @@
 namespace Destiny
 {
-    public enum DestinyGameVersions
+        public enum DestinyGameVersions
     {
-        None = 0,
-        Destiny2 = 1,
-    }
+None = 0,
+Destiny2 = 1,
+}
 }

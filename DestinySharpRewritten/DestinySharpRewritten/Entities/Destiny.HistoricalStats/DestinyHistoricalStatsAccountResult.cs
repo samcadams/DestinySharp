@@ -7,8 +7,8 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyHistoricalStatsAccountResult
     {
-        public Destiny.HistoricalStats.DestinyHistoricalStatsWithMerged mergedDeletedCharacters;
-        public Destiny.HistoricalStats.DestinyHistoricalStatsWithMerged mergedAllCharacters;
-        public Destiny.HistoricalStats.DestinyHistoricalStatsPerCharacter[] characters;
-    }
+public Destiny.HistoricalStats.DestinyHistoricalStatsWithMerged mergedDeletedCharacters;
+public Destiny.HistoricalStats.DestinyHistoricalStatsWithMerged mergedAllCharacters;
+		public Destiny.HistoricalStats.DestinyHistoricalStatsPerCharacter[] characters;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyItemStatBlockDefinition
     {
-        public int statGroupHash;
-        public bool hasDisplayableStats;
-        public int primaryBaseStatHash;
-    }
+		public ulong statGroupHash;
+		public bool hasDisplayableStats;
+		public ulong primaryBaseStatHash;
+	}
 }

@@ -7,8 +7,8 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemTalentGridComponent
     {
-        public int talentGridHash;
-        public Destiny.DestinyTalentNode[] nodes;
-        public bool isGridComplete;
-    }
+		public ulong talentGridHash;
+		public Destiny.DestinyTalentNode[] nodes;
+		public bool isGridComplete;
+	}
 }

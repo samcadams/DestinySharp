@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyActivityModeCategory
+        public enum DestinyActivityModeCategory
     {
-        None = 0,
-        PvE = 1,
-        PvP = 2,
-    }
+None = 0,
+PvE = 1,
+PvP = 2,
+}
 }

@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyDestinationBubbleSettingDefinition
     {
-        public Destiny.Definitions.Common.DestinyDisplayPropertiesDefinition displayProperties;
-    }
+public Destiny.Definitions.Common.DestinyDisplayPropertiesDefinition displayProperties;
+	}
 }

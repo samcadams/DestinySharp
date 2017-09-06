@@ -7,12 +7,12 @@ namespace Destiny.Definitions
 {
     public class DestinyEquipmentSlotDefinition
     {
-        public Destiny.Definitions.Common.DestinyDisplayPropertiesDefinition displayProperties;
-        public int equipmentCategoryHash;
-        public int bucketTypeHash;
-        public bool applyCustomArtDyes;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+public Destiny.Definitions.Common.DestinyDisplayPropertiesDefinition displayProperties;
+		public ulong equipmentCategoryHash;
+		public ulong bucketTypeHash;
+		public bool applyCustomArtDyes;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

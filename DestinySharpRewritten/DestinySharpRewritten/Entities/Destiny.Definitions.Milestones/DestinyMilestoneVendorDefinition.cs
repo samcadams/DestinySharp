@@ -7,6 +7,6 @@ namespace Destiny.Definitions.Milestones
 {
     public class DestinyMilestoneVendorDefinition
     {
-        public int vendorHash;
-    }
+		public ulong vendorHash;
+	}
 }

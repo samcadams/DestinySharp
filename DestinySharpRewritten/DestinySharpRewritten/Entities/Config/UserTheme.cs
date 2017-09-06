@@ -7,8 +7,8 @@ namespace Config
 {
     public class UserTheme
     {
-        public int userThemeId;
-        public string userThemeName;
-        public string userThemeDescription;
-    }
+		public int userThemeId;
+		public string userThemeName;
+		public string userThemeDescription;
+	}
 }

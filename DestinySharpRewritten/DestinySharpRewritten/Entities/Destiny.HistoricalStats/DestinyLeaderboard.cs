@@ -7,7 +7,7 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyLeaderboard
     {
-        public string statId;
-        public Destiny.HistoricalStats.DestinyLeaderboardEntry[] entries;
-    }
+		public string statId;
+		public Destiny.HistoricalStats.DestinyLeaderboardEntry[] entries;
+	}
 }

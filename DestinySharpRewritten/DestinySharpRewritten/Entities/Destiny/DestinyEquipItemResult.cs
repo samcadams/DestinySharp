@@ -7,6 +7,6 @@ namespace Destiny
 {
     public class DestinyEquipItemResult
     {
-        public int itemInstanceId;
-    }
+		public int itemInstanceId;
+	}
 }

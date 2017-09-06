@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorInventoryFlyoutBucketDefinition
     {
-        public bool collapsible;
-        public int inventoryBucketHash;
-    }
+		public bool collapsible;
+		public ulong inventoryBucketHash;
+	}
 }

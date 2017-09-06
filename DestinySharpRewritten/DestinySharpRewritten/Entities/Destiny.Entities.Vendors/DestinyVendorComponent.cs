@@ -7,9 +7,9 @@ namespace Destiny.Entities.Vendors
 {
     public class DestinyVendorComponent
     {
-        public int vendorHash;
-        public string nextRefreshDate;
-        public bool enabled;
-        public bool canPurchase;
-    }
+		public ulong vendorHash;
+		public string nextRefreshDate;
+		public bool enabled;
+		public bool canPurchase;
+	}
 }

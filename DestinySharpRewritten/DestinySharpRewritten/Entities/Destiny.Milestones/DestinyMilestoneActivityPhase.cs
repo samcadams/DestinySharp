@@ -7,6 +7,6 @@ namespace Destiny.Milestones
 {
     public class DestinyMilestoneActivityPhase
     {
-        public bool complete;
-    }
+		public bool complete;
+	}
 }

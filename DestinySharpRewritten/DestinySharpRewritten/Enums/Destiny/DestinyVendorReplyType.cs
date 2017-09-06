@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyVendorReplyType
+        public enum DestinyVendorReplyType
     {
-        Accept = 0,
-        Decline = 1,
-        Complete = 2,
-    }
+Accept = 0,
+Decline = 1,
+Complete = 2,
+}
 }

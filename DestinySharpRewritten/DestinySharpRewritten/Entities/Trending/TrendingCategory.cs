@@ -7,8 +7,8 @@ namespace Trending
 {
     public class TrendingCategory
     {
-        public string categoryName;
-        public DestinySharp.SearchResultOfTrendingEntry entries;
-        public string categoryId;
-    }
+		public string categoryName;
+public  DestinySharp.SearchResultOfTrendingEntry entries;
+		public string categoryId;
+	}
 }

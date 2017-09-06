@@ -7,7 +7,7 @@ namespace User
 {
     public class UserMembershipData
     {
-        public User.UserInfoCard[] destinyMemberships;
-        public User.GeneralUser bungieNetUser;
-    }
+		public User.UserInfoCard[] destinyMemberships;
+public User.GeneralUser bungieNetUser;
+	}
 }

@@ -7,11 +7,11 @@ namespace Destiny.Definitions.Items
 {
     public class DestinyDerivedItemDefinition
     {
-        public int itemHash;
-        public string itemName;
-        public string itemDetail;
-        public string itemDescription;
-        public string iconPath;
-        public int vendorItemIndex;
-    }
+		public ulong itemHash;
+		public string itemName;
+		public string itemDetail;
+		public string itemDescription;
+		public string iconPath;
+		public int vendorItemIndex;
+	}
 }

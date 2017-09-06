@@ -7,7 +7,7 @@ namespace DestinySharp
 {
     public class SingleComponentResponseOfDestinyVendorComponent
     {
-        public Destiny.Entities.Vendors.DestinyVendorComponent data;
-        public Components.ComponentPrivacySetting privacy;
-    }
+public Destiny.Entities.Vendors.DestinyVendorComponent data;
+public Components.ComponentPrivacySetting privacy;
+	}
 }

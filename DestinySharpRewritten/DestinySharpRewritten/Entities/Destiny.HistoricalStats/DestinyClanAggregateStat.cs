@@ -7,6 +7,6 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyClanAggregateStat
     {
-        public string statId;
-    }
+		public string statId;
+	}
 }

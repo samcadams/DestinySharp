@@ -7,7 +7,7 @@ namespace Content
 {
     public class CommentSummary
     {
-        public int topicId;
-        public int commentCount;
-    }
+		public int topicId;
+		public int commentCount;
+	}
 }

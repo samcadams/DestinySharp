@@ -7,7 +7,7 @@ namespace Destiny.Definitions.Sockets
 {
     public class DestinyPlugWhitelistEntryDefinition
     {
-        public int categoryHash;
-        public string categoryIdentifier;
-    }
+		public ulong categoryHash;
+		public string categoryIdentifier;
+	}
 }

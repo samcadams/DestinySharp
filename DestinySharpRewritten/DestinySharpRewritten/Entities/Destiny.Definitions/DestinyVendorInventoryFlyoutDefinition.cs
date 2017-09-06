@@ -7,9 +7,9 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorInventoryFlyoutDefinition
     {
-        public string lockedDescription;
-        public Destiny.Definitions.DestinyVendorInventoryFlyoutBucketDefinition[] buckets;
-        public int flyoutId;
-        public bool suppressNewness;
-    }
+		public string lockedDescription;
+		public Destiny.Definitions.DestinyVendorInventoryFlyoutBucketDefinition[] buckets;
+		public ulong flyoutId;
+		public bool suppressNewness;
+	}
 }

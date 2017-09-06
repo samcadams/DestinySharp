@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemGearsetBlockDefinition
     {
-        public int trackingValueMax;
-        public UInt32[] itemList;
-    }
+		public int trackingValueMax;
+		public UInt32[] itemList;
+	}
 }

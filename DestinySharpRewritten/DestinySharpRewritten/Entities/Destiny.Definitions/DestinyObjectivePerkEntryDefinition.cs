@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyObjectivePerkEntryDefinition
     {
-        public int perkHash;
-    }
+		public ulong perkHash;
+	}
 }

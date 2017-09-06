@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSocketEntryPlugItemDefinition
     {
-        public int plugItemHash;
-    }
+		public ulong plugItemHash;
+	}
 }

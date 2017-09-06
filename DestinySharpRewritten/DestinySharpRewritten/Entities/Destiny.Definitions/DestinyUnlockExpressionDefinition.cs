@@ -7,5 +7,5 @@ namespace Destiny.Definitions
 {
     public class DestinyUnlockExpressionDefinition
     {
-    }
+	}
 }

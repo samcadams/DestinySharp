@@ -7,7 +7,7 @@ namespace Destiny.Definitions.Milestones
 {
     public class DestinyMilestoneQuestDefinition
     {
-        public int questItemHash;
-        public string overrideImage;
-    }
+		public ulong questItemHash;
+		public string overrideImage;
+	}
 }

@@ -7,7 +7,7 @@ namespace Destiny.Requests.Actions
 {
     public class DestinyCharacterActionRequest
     {
-        public int characterId;
-        public DestinySharp.BungieMembershipType membershipType;
-    }
+		public int characterId;
+public  DestinySharp.BungieMembershipType membershipType;
+	}
 }

@@ -7,7 +7,7 @@ namespace Destiny
 {
     public class DestinyTalentNodeStatBlock
     {
-        public Destiny.DestinyStat[] currentStepStats;
-        public Destiny.DestinyStat[] nextStepStats;
-    }
+		public Destiny.DestinyStat[] currentStepStats;
+		public Destiny.DestinyStat[] nextStepStats;
+	}
 }

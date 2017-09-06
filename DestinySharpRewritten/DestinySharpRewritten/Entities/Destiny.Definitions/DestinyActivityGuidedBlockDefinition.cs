@@ -7,8 +7,8 @@ namespace Destiny.Definitions
 {
     public class DestinyActivityGuidedBlockDefinition
     {
-        public int guidedMaxLobbySize;
-        public int guidedMinLobbySize;
-        public int guidedDisbandCount;
-    }
+		public int guidedMaxLobbySize;
+		public int guidedMinLobbySize;
+		public int guidedDisbandCount;
+	}
 }

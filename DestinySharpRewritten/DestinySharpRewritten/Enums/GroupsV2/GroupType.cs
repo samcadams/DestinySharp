@@ -1,8 +1,8 @@
 namespace GroupsV2
 {
-    public enum GroupType
+        public enum GroupType
     {
-        General = 0,
-        Clan = 1,
-    }
+General = 0,
+Clan = 1,
+}
 }

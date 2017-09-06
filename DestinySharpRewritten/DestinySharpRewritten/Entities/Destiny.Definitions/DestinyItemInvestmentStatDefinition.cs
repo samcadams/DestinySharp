@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyItemInvestmentStatDefinition
     {
-        public int statTypeHash;
-        public int value;
-    }
+		public ulong statTypeHash;
+		public int value;
+	}
 }

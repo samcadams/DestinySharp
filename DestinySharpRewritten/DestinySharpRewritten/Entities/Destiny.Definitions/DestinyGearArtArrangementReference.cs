@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyGearArtArrangementReference
     {
-        public int classHash;
-        public int artArrangementHash;
-    }
+		public ulong classHash;
+		public ulong artArrangementHash;
+	}
 }

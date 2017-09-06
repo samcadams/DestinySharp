@@ -7,8 +7,8 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyHistoricalStatsPerCharacter
     {
-        public int characterId;
-        public bool deleted;
-        public Destiny.HistoricalStats.DestinyHistoricalStatsByPeriod merged;
-    }
+		public int characterId;
+		public bool deleted;
+public Destiny.HistoricalStats.DestinyHistoricalStatsByPeriod merged;
+	}
 }

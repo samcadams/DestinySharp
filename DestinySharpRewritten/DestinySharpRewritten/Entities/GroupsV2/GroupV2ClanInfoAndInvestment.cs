@@ -7,7 +7,7 @@ namespace GroupsV2
 {
     public class GroupV2ClanInfoAndInvestment
     {
-        public string clanCallsign;
-        public GroupsV2.ClanBanner clanBannerData;
-    }
+		public string clanCallsign;
+public GroupsV2.ClanBanner clanBannerData;
+	}
 }

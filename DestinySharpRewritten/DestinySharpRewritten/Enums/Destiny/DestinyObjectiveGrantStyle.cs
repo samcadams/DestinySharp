@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinyObjectiveGrantStyle
+        public enum DestinyObjectiveGrantStyle
     {
-        WhenIncomplete = 0,
-        WhenComplete = 1,
-        Always = 2,
-    }
+WhenIncomplete = 0,
+WhenComplete = 1,
+Always = 2,
+}
 }

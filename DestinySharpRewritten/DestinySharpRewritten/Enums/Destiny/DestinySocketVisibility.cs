@@ -1,9 +1,9 @@
 namespace Destiny
 {
-    public enum DestinySocketVisibility
+        public enum DestinySocketVisibility
     {
-        Visible = 0,
-        Hidden = 1,
-        HiddenWhenEmpty = 2,
-    }
+Visible = 0,
+Hidden = 1,
+HiddenWhenEmpty = 2,
+}
 }

@@ -7,5 +7,5 @@ namespace Destiny.Entities.Items
 {
     public class DestinyItemStatsComponent
     {
-    }
+	}
 }

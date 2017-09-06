@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyStatOverrideDefinition
     {
-        public int statHash;
-    }
+		public ulong statHash;
+	}
 }

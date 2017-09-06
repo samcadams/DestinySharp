@@ -7,9 +7,9 @@ namespace Destiny.Definitions
 {
     public class DestinyStatDisplayDefinition
     {
-        public int statHash;
-        public int maximumValue;
-        public bool displayAsNumeric;
-        public Interpolation.InterpolationPoint[] displayInterpolation;
-    }
+		public ulong statHash;
+		public int maximumValue;
+		public bool displayAsNumeric;
+		public Interpolation.InterpolationPoint[] displayInterpolation;
+	}
 }

@@ -1,9 +1,9 @@
 namespace GroupsV2
 {
-    public enum HostGuidedGamesPermissionLevel
+        public enum HostGuidedGamesPermissionLevel
     {
-        None = 0,
-        Beginner = 1,
-        Member = 2,
-    }
+None = 0,
+Beginner = 1,
+Member = 2,
+}
 }

@@ -7,12 +7,12 @@ namespace GroupsV2
 {
     public class ClanBanner
     {
-        public int decalId;
-        public int decalColorId;
-        public int decalBackgroundColorId;
-        public int gonfalonId;
-        public int gonfalonColorId;
-        public int gonfalonDetailId;
-        public int gonfalonDetailColorId;
-    }
+		public ulong decalId;
+		public ulong decalColorId;
+		public ulong decalBackgroundColorId;
+		public ulong gonfalonId;
+		public ulong gonfalonColorId;
+		public ulong gonfalonDetailId;
+		public ulong gonfalonDetailColorId;
+	}
 }

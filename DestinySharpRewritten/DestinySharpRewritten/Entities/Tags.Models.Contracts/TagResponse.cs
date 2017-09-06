@@ -7,7 +7,7 @@ namespace Tags.Models.Contracts
 {
     public class TagResponse
     {
-        public string tagText;
-        public Ignores.IgnoreResponse ignoreStatus;
-    }
+		public string tagText;
+public Ignores.IgnoreResponse ignoreStatus;
+	}
 }

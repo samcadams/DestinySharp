@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorSaleItemActionBlockDefinition
     {
-        public decimal executeSeconds;
-        public bool isPositive;
-    }
+		public decimal executeSeconds;
+		public bool isPositive;
+	}
 }

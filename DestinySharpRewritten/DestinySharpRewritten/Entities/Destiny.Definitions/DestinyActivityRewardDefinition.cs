@@ -7,7 +7,7 @@ namespace Destiny.Definitions
 {
     public class DestinyActivityRewardDefinition
     {
-        public string rewardText;
-        public Destiny.DestinyItemQuantity[] rewardItems;
-    }
+		public string rewardText;
+		public Destiny.DestinyItemQuantity[] rewardItems;
+	}
 }

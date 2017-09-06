@@ -7,6 +7,6 @@ namespace Destiny.HistoricalStats
 {
     public class DestinyHistoricalStatsWithMerged
     {
-        public Destiny.HistoricalStats.DestinyHistoricalStatsByPeriod merged;
-    }
+public Destiny.HistoricalStats.DestinyHistoricalStatsByPeriod merged;
+	}
 }

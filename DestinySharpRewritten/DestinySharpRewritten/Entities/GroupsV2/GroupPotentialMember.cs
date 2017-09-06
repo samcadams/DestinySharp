@@ -7,10 +7,10 @@ namespace GroupsV2
 {
     public class GroupPotentialMember
     {
-        public GroupsV2.GroupPotentialMemberStatus potentialStatus;
-        public int groupId;
-        public User.UserInfoCard destinyUserInfo;
-        public User.UserInfoCard bungieNetUserInfo;
-        public string joinDate;
-    }
+public GroupsV2.GroupPotentialMemberStatus potentialStatus;
+		public int groupId;
+public User.UserInfoCard destinyUserInfo;
+public User.UserInfoCard bungieNetUserInfo;
+		public string joinDate;
+	}
 }

@@ -1,9 +1,9 @@
 namespace Forum
 {
-    public enum ForumRecruitmentToneLabel
+        public enum ForumRecruitmentToneLabel
     {
-        None = 0,
-        FamilyFriendly = 1,
-        Rowdy = 2,
-    }
+None = 0,
+FamilyFriendly = 1,
+Rowdy = 2,
+}
 }

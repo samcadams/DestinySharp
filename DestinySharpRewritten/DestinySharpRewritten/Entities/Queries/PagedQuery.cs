@@ -7,8 +7,8 @@ namespace Queries
 {
     public class PagedQuery
     {
-        public int itemsPerPage;
-        public int currentPage;
-        public string requestContinuationToken;
-    }
+		public int itemsPerPage;
+		public int currentPage;
+		public string requestContinuationToken;
+	}
 }

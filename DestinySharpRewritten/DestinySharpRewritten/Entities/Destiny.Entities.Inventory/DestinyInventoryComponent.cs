@@ -7,6 +7,6 @@ namespace Destiny.Entities.Inventory
 {
     public class DestinyInventoryComponent
     {
-        public Destiny.Entities.Items.DestinyItemComponent[] items;
-    }
+		public Destiny.Entities.Items.DestinyItemComponent[] items;
+	}
 }

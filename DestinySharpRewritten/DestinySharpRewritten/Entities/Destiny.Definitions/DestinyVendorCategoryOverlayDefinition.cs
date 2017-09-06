@@ -7,9 +7,9 @@ namespace Destiny.Definitions
 {
     public class DestinyVendorCategoryOverlayDefinition
     {
-        public string choiceDescription;
-        public string description;
-        public string icon;
-        public string title;
-    }
+		public string choiceDescription;
+		public string description;
+		public string icon;
+		public string title;
+	}
 }

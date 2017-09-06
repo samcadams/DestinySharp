@@ -7,9 +7,9 @@ namespace Destiny.Definitions
 {
     public class DestinyItemTalentGridBlockDefinition
     {
-        public int talentGridHash;
-        public string itemDetailString;
-        public string buildName;
-        public string hudIcon;
-    }
+		public ulong talentGridHash;
+		public string itemDetailString;
+		public string buildName;
+		public string hudIcon;
+	}
 }

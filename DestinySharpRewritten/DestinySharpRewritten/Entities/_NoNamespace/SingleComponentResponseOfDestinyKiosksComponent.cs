@@ -7,7 +7,7 @@ namespace DestinySharp
 {
     public class SingleComponentResponseOfDestinyKiosksComponent
     {
-        public Destiny.Components.Kiosks.DestinyKiosksComponent data;
-        public Components.ComponentPrivacySetting privacy;
-    }
+public Destiny.Components.Kiosks.DestinyKiosksComponent data;
+public Components.ComponentPrivacySetting privacy;
+	}
 }

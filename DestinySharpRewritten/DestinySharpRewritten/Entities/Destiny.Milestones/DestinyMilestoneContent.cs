@@ -7,9 +7,9 @@ namespace Destiny.Milestones
 {
     public class DestinyMilestoneContent
     {
-        public string about;
-        public string status;
-        public string[] tips;
-        public Destiny.Milestones.DestinyMilestoneContentItemCategory[] itemCategories;
-    }
+		public string about;
+		public string status;
+		public string[] tips;
+		public Destiny.Milestones.DestinyMilestoneContentItemCategory[] itemCategories;
+	}
 }

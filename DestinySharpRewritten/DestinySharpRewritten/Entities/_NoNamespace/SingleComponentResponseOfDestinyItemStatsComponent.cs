@@ -7,7 +7,7 @@ namespace DestinySharp
 {
     public class SingleComponentResponseOfDestinyItemStatsComponent
     {
-        public Destiny.Entities.Items.DestinyItemStatsComponent data;
-        public Components.ComponentPrivacySetting privacy;
-    }
+public Destiny.Entities.Items.DestinyItemStatsComponent data;
+public Components.ComponentPrivacySetting privacy;
+	}
 }

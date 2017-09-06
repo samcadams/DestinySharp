@@ -7,10 +7,10 @@ namespace Destiny.Definitions
 {
     public class DestinyDamageTypeDefinition
     {
-        public string transparentIconPath;
-        public bool showIcon;
-        public int hash;
-        public int index;
-        public bool redacted;
-    }
+		public string transparentIconPath;
+		public bool showIcon;
+		public ulong hash;
+		public int index;
+		public bool redacted;
+	}
 }

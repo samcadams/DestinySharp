@@ -7,7 +7,7 @@ namespace Destiny.Entities.Vendors
 {
     public class DestinyVendorCategory
     {
-        public int categoryIndex;
-        public int[] itemIndexes;
-    }
+		public int categoryIndex;
+		public int[] itemIndexes;
+	}
 }

@@ -7,6 +7,6 @@ namespace Trending
 {
     public class TrendingEntryDestinyItem
     {
-        public int itemHash;
-    }
+		public ulong itemHash;
+	}
 }

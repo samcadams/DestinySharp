@@ -1,9 +1,9 @@
 namespace GroupsV2
 {
-    public enum GroupAllianceStatus
+        public enum GroupAllianceStatus
     {
-        Unallied = 0,
-        Parent = 1,
-        Child = 2,
-    }
+Unallied = 0,
+Parent = 1,
+Child = 2,
+}
 }

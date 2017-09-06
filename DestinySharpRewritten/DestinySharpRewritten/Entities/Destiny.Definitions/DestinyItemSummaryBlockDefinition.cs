@@ -7,6 +7,6 @@ namespace Destiny.Definitions
 {
     public class DestinyItemSummaryBlockDefinition
     {
-        public int sortPriority;
-    }
+		public int sortPriority;
+	}
 }
