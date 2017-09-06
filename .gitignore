@@ -27,3 +27,4 @@ DestinySharpRewritten/DestinySharpRewritten.Testing/obj/Debug/TemporaryGenerated
 DestinySharpRewritten/DestinySharpRewritten.Testing/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
 *.txt
 DestinySharpRewritten/DestinySharpRewritten/obj/project.assets.json
+*.xml
